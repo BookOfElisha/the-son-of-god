@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "audio": "15_Continue_the_Journey.mp3",
+  "section_id": "continue",
+  "sentence_count": 4,
+  "duration": 108.382,
+  "sentences": [
+    {
+      "start": 7.748,
+      "end": 17.574,
+      "text": "This booklet, The Son of God: An Introduction to Spiritual Genetics, is drawn from Chapter 1 of the larger work The Foundation of Spiritual Genetics."
+    },
+    {
+      "start": 32.784,
+      "end": 39.129,
+      "text": "If these pages have stirred something in you, continue the journey at bookofelisha.org."
+    },
+    {
+      "start": 82.329,
+      "end": 82.429,
+      "text": "Discover:"
+    },
+    {
+      "start": 101.959,
+      "end": 108.382,
+      "text": "Visit bookofelisha.org to access the complete revelation now."
+    }
+  ]
+}
