@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "audio": "06_Section_1.mp3",
+  "section_id": "section-1",
+  "anchor": "section-1",
+  "notes": "Per-sentence start/end timestamps in seconds. The player uses these to highlight the currently-spoken sentence and auto-scroll. The Nth entry corresponds to the Nth `<span data-sent=\"N\">` inside #section-1 .prose (counted in document order across all paragraphs). If timings has fewer entries than the page has sentences, the trailing sentences will simply not highlight — that's fine. If it has more, the extras are ignored.",
+  "sentences": [
+    { "start": 0.00, "end": 4.12, "text": "Optional: the sentence text, for verification." },
+    { "start": 4.12, "end": 9.40, "text": "Only `start` is required. `end` is optional — the player will use the next sentence's start as the end." }
+  ]
+}

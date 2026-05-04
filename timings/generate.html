@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Generate Timings · The Son of God</title>
+  <link rel="stylesheet" href="../book.css" />
+  <style>
+    body { padding: 40px 24px 60px; max-width: 880px; margin: 0 auto; }
+    h1 { font-family: var(--serif-display); letter-spacing: 0.04em; font-size: 2.2rem; margin: 0 0 6px; }
+    .lede { font-family: var(--serif-italic); font-style: italic; color: var(--ink-soft); font-size: 1.05rem; margin: 0 0 36px; }
+    .panel { border: 1px solid var(--hairline); border-radius: 12px; padding: 22px 24px; background: rgba(255,255,255,0.5); margin-bottom: 22px; }
+    .panel h2 { font-family: var(--serif-display); font-size: 1.1rem; letter-spacing: 0.06em; margin: 0 0 8px; }
+    .panel p { margin: 6px 0; font-size: 0.96rem; line-height: 1.6; color: var(--ink-soft); }
+    .controls { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 14px; }
+    button.primary {
+      background: var(--red); color: var(--bg); border: 0; padding: 10px 22px; border-radius: 8px;
+      font-family: var(--sans-eyebrow); letter-spacing: 0.18em; font-size: 0.78rem; text-transform: uppercase; cursor: pointer;
+      transition: background .15s, transform .15s;
+    }
+    button.primary:hover:not(:disabled) { background: var(--red-deep); transform: translateY(-1px); }
+    button.primary:disabled { background: var(--ink-faint); cursor: not-allowed; opacity: 0.6; }
+    button.ghost {
+      background: transparent; color: var(--ink); border: 1px solid var(--hairline); padding: 10px 22px; border-radius: 8px;
+      font-family: var(--sans-eyebrow); letter-spacing: 0.18em; font-size: 0.78rem; text-transform: uppercase; cursor: pointer;
+    }
+    button.ghost:hover:not(:disabled) { border-color: var(--red); color: var(--red); }
+    .row { display: grid; grid-template-columns: 28px 1fr auto auto; gap: 12px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--hairline-soft); font-size: 0.95rem; }
+    .row:last-child { border-bottom: 0; }
+    .row__num { font-family: var(--sans-eyebrow); color: var(--ink-faint); font-size: 0.78rem; }
+    .row__label { font-family: var(--serif-body); }
+    .row__status { font-family: var(--sans-eyebrow); letter-spacing: 0.16em; font-size: 0.66rem; text-transform: uppercase; color: var(--ink-faint); }
+    .row__status--running { color: var(--red); }
+    .row__status--done { color: #2e7d32; }
+    .row__status--error { color: #b71c1c; }
+    .row__progress {
+      width: 120px; height: 4px; background: var(--hairline-soft); border-radius: 2px; overflow: hidden;
+    }
+    .row__progress-fill { height: 100%; background: var(--red); width: 0%; transition: width .25s; }
+    .log {
+      font-family: 'SF Mono', Menlo, monospace; font-size: 0.78rem; line-height: 1.55;
+      background: rgba(26,23,20,0.04); border: 1px solid var(--hairline-soft); border-radius: 6px;
+      padding: 12px 14px; height: 180px; overflow: auto; white-space: pre-wrap; color: var(--ink-soft);
+    }
+    .log__line { margin: 0; }
+    .log__line--err { color: #b71c1c; }
+    .summary {
+      display: flex; gap: 24px; flex-wrap: wrap; padding: 14px 0; border-top: 1px solid var(--hairline-soft);
+      margin-top: 14px; font-size: 0.9rem; color: var(--ink-soft);
+    }
+    .summary strong { color: var(--ink); font-family: var(--serif-display); font-size: 1.05rem; }
+    .warn { background: rgba(184,144,72,0.12); border-color: rgba(184,144,72,0.4); }
+    .warn h2 { color: var(--ink); }
+    code { font-family: 'SF Mono', Menlo, monospace; background: rgba(26,23,20,0.05); padding: 1px 5px; border-radius: 3px; }
+  </style>
+</head>
+<body>
+  <a href="../The_Son_of_God.html" style="font-family: var(--sans-eyebrow); letter-spacing: 0.2em; font-size: 0.7rem; text-transform: uppercase;">← Back to the book</a>
+
+  <h1 style="margin-top: 18px;">Sentence Timing Generator</h1>
+  <p class="lede">One-click, in-browser. Generates the JSON timing files that lock the highlighted sentence to the narration.</p>
+
+  <div class="panel">
+    <h2>How this works</h2>
+    <p>Your browser will download a small (~150 MB) speech model and use it to find when each sentence starts in every audio track. Word-level timestamps are matched against the book's exact sentence list (<code>sentences.json</code>) — no transcription guesswork.</p>
+    <p>This is a <strong>one-time job</strong>. When done, click "Download timings" — drop the resulting JSON files into <code>book/timings/</code> and the highlighting locks to the voice automatically.</p>
+  </div>
+
+  <div class="panel warn">
+    <h2>Heads up</h2>
+    <p>This will run for <strong>30–90 minutes</strong> depending on your machine. It downloads ~150 MB of model weights on first run (cached after that). Keep this tab open and your laptop awake. You can keep using other apps while it runs.</p>
+    <p>If a section fails, the rest still complete — you can re-run only the failed ones.</p>
+  </div>
+
+  <div class="panel">
+    <h2>Controls</h2>
+    <div class="controls">
+      <button class="primary" id="start-btn">Start alignment</button>
+      <button class="ghost" id="stop-btn" disabled>Stop</button>
+      <button class="ghost" id="download-btn" disabled>Download timings (zip)</button>
+    </div>
+    <div class="summary" id="summary">
+      <span><strong id="sum-done">0</strong> done</span>
+      <span><strong id="sum-running">0</strong> running</span>
+      <span><strong id="sum-pending">0</strong> pending</span>
+      <span><strong id="sum-failed">0</strong> failed</span>
+      <span style="margin-left: auto;"><span id="sum-time">—</span></span>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>Progress</h2>
+    <div id="rows"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Log</h2>
+    <div class="log" id="log"></div>
+  </div>
+
+  <!-- transformers.js (Xenova) — runs Whisper in-browser via WebAssembly + WebGPU when available -->
+  <script type="module" src="generate.js"></script>
+</body>
+</html>
