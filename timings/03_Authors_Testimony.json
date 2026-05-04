@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "audio": "03_Authors_Testimony.mp3",
+  "section_id": "authors-testimony",
+  "sentence_count": 2,
+  "duration": 19.957,
+  "sentences": [
+    {
+      "start": 1.131,
+      "end": 8.954,
+      "text": "\u201cIn a mist of pure white light, angelic beings in the form of men stood before me at the gate of a heavenly place."
+    },
+    {
+      "start": 10.054,
+      "end": 16.376,
+      "text": "One of them said to me, \u2018God is pleased with you for handling the truth of His Son with care.\u2019\u201d"
+    }
+  ]
+}

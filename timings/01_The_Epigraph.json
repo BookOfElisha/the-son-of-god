@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "audio": "01_The_Epigraph.mp3",
+  "section_id": "epigraph",
+  "sentence_count": 1,
+  "duration": 8.734,
+  "sentences": [
+    {
+      "start": 1.134,
+      "end": 6.067,
+      "text": "\u201cNone of the wicked will understand, but the wise will understand.\u201d"
+    }
+  ]
+}
