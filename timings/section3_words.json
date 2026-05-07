@@ -1,0 +1,5510 @@
+[
+  {
+    "word": "section",
+    "start": 1.096,
+    "end": 1.837,
+    "score": 0.863
+  },
+  {
+    "word": "3",
+    "start": 1.857,
+    "end": 1.877,
+    "score": 1.0
+  },
+  {
+    "word": "the",
+    "start": 2.638,
+    "end": 2.718,
+    "score": 0.836
+  },
+  {
+    "word": "identity",
+    "start": 2.818,
+    "end": 3.319,
+    "score": 0.795
+  },
+  {
+    "word": "the",
+    "start": 4.42,
+    "end": 4.54,
+    "score": 0.885
+  },
+  {
+    "word": "holy",
+    "start": 4.6,
+    "end": 4.9,
+    "score": 0.874
+  },
+  {
+    "word": "spirit",
+    "start": 4.96,
+    "end": 5.361,
+    "score": 0.772
+  },
+  {
+    "word": "is",
+    "start": 5.501,
+    "end": 5.601,
+    "score": 0.826
+  },
+  {
+    "word": "the",
+    "start": 5.641,
+    "end": 5.741,
+    "score": 0.81
+  },
+  {
+    "word": "son",
+    "start": 5.781,
+    "end": 5.981,
+    "score": 0.807
+  },
+  {
+    "word": "of",
+    "start": 6.001,
+    "end": 6.062,
+    "score": 0.758
+  },
+  {
+    "word": "god",
+    "start": 6.122,
+    "end": 6.422,
+    "score": 0.827
+  },
+  {
+    "word": "i",
+    "start": 9.485,
+    "end": 9.525,
+    "score": 1.0
+  },
+  {
+    "word": "will",
+    "start": 9.585,
+    "end": 9.766,
+    "score": 0.9
+  },
+  {
+    "word": "not",
+    "start": 9.806,
+    "end": 9.946,
+    "score": 0.816
+  },
+  {
+    "word": "leave",
+    "start": 10.006,
+    "end": 10.226,
+    "score": 0.816
+  },
+  {
+    "word": "you",
+    "start": 10.266,
+    "end": 10.406,
+    "score": 0.77
+  },
+  {
+    "word": "as",
+    "start": 10.546,
+    "end": 10.626,
+    "score": 0.698
+  },
+  {
+    "word": "orphans",
+    "start": 10.727,
+    "end": 11.107,
+    "score": 0.808
+  },
+  {
+    "word": "i",
+    "start": 11.928,
+    "end": 11.968,
+    "score": 1.0
+  },
+  {
+    "word": "will",
+    "start": 12.008,
+    "end": 12.188,
+    "score": 0.914
+  },
+  {
+    "word": "come",
+    "start": 12.268,
+    "end": 12.468,
+    "score": 0.974
+  },
+  {
+    "word": "to",
+    "start": 12.549,
+    "end": 12.649,
+    "score": 0.751
+  },
+  {
+    "word": "you",
+    "start": 12.709,
+    "end": 12.849,
+    "score": 0.807
+  },
+  {
+    "word": "john",
+    "start": 13.99,
+    "end": 14.29,
+    "score": 0.632
+  },
+  {
+    "word": "14",
+    "start": 14.31,
+    "end": 14.351,
+    "score": 1.0
+  },
+  {
+    "word": "18.",
+    "start": 14.931,
+    "end": 15.051,
+    "score": 0.981
+  },
+  {
+    "word": "Jesus'",
+    "start": 18.167,
+    "end": 18.608,
+    "score": 0.823
+  },
+  {
+    "word": "promise",
+    "start": 18.668,
+    "end": 19.028,
+    "score": 0.874
+  },
+  {
+    "word": "is",
+    "start": 19.188,
+    "end": 19.288,
+    "score": 0.447
+  },
+  {
+    "word": "everlasting",
+    "start": 19.388,
+    "end": 20.049,
+    "score": 0.846
+  },
+  {
+    "word": "personal",
+    "start": 20.209,
+    "end": 20.61,
+    "score": 0.768
+  },
+  {
+    "word": "presence.",
+    "start": 20.67,
+    "end": 21.05,
+    "score": 0.816
+  },
+  {
+    "word": "The",
+    "start": 21.911,
+    "end": 21.991,
+    "score": 0.947
+  },
+  {
+    "word": "very",
+    "start": 22.031,
+    "end": 22.272,
+    "score": 0.815
+  },
+  {
+    "word": "Spirit",
+    "start": 22.332,
+    "end": 22.692,
+    "score": 0.766
+  },
+  {
+    "word": "who",
+    "start": 22.732,
+    "end": 22.892,
+    "score": 0.75
+  },
+  {
+    "word": "stood",
+    "start": 22.932,
+    "end": 23.173,
+    "score": 0.666
+  },
+  {
+    "word": "before",
+    "start": 23.193,
+    "end": 23.513,
+    "score": 0.798
+  },
+  {
+    "word": "them",
+    "start": 23.553,
+    "end": 23.713,
+    "score": 0.848
+  },
+  {
+    "word": "vowed",
+    "start": 24.174,
+    "end": 24.474,
+    "score": 0.963
+  },
+  {
+    "word": "to",
+    "start": 24.534,
+    "end": 24.654,
+    "score": 0.58
+  },
+  {
+    "word": "return",
+    "start": 24.714,
+    "end": 25.095,
+    "score": 0.929
+  },
+  {
+    "word": "within",
+    "start": 25.155,
+    "end": 25.415,
+    "score": 0.804
+  },
+  {
+    "word": "them,",
+    "start": 25.455,
+    "end": 25.615,
+    "score": 0.897
+  },
+  {
+    "word": "no",
+    "start": 26.236,
+    "end": 26.416,
+    "score": 0.666
+  },
+  {
+    "word": "substitute,",
+    "start": 26.496,
+    "end": 27.057,
+    "score": 0.849
+  },
+  {
+    "word": "no",
+    "start": 27.618,
+    "end": 27.798,
+    "score": 0.78
+  },
+  {
+    "word": "lesser",
+    "start": 27.878,
+    "end": 28.218,
+    "score": 0.829
+  },
+  {
+    "word": "envoy,",
+    "start": 28.318,
+    "end": 28.699,
+    "score": 0.886
+  },
+  {
+    "word": "but",
+    "start": 29.259,
+    "end": 29.379,
+    "score": 0.834
+  },
+  {
+    "word": "the",
+    "start": 29.42,
+    "end": 29.5,
+    "score": 0.833
+  },
+  {
+    "word": "begotten",
+    "start": 29.52,
+    "end": 29.94,
+    "score": 0.94
+  },
+  {
+    "word": "God",
+    "start": 29.98,
+    "end": 30.22,
+    "score": 0.798
+  },
+  {
+    "word": "Himself.",
+    "start": 30.28,
+    "end": 30.681,
+    "score": 0.842
+  },
+  {
+    "word": "His",
+    "start": 31.582,
+    "end": 31.702,
+    "score": 0.694
+  },
+  {
+    "word": "return",
+    "start": 31.762,
+    "end": 32.183,
+    "score": 0.844
+  },
+  {
+    "word": "would",
+    "start": 32.543,
+    "end": 32.683,
+    "score": 0.987
+  },
+  {
+    "word": "not",
+    "start": 32.723,
+    "end": 32.843,
+    "score": 0.7
+  },
+  {
+    "word": "only",
+    "start": 32.883,
+    "end": 33.044,
+    "score": 0.782
+  },
+  {
+    "word": "be",
+    "start": 33.104,
+    "end": 33.184,
+    "score": 0.998
+  },
+  {
+    "word": "physical",
+    "start": 33.264,
+    "end": 33.724,
+    "score": 0.793
+  },
+  {
+    "word": "at",
+    "start": 34.025,
+    "end": 34.105,
+    "score": 0.501
+  },
+  {
+    "word": "the",
+    "start": 34.125,
+    "end": 34.225,
+    "score": 0.671
+  },
+  {
+    "word": "end",
+    "start": 34.285,
+    "end": 34.405,
+    "score": 0.962
+  },
+  {
+    "word": "of",
+    "start": 34.445,
+    "end": 34.505,
+    "score": 0.75
+  },
+  {
+    "word": "the",
+    "start": 34.525,
+    "end": 34.625,
+    "score": 0.685
+  },
+  {
+    "word": "age,",
+    "start": 34.765,
+    "end": 34.986,
+    "score": 0.857
+  },
+  {
+    "word": "but",
+    "start": 35.626,
+    "end": 35.747,
+    "score": 0.831
+  },
+  {
+    "word": "spiritual.",
+    "start": 35.827,
+    "end": 36.327,
+    "score": 0.842
+  },
+  {
+    "word": "in",
+    "start": 37.248,
+    "end": 37.328,
+    "score": 0.831
+  },
+  {
+    "word": "a",
+    "start": 37.368,
+    "end": 37.388,
+    "score": 0.999
+  },
+  {
+    "word": "little",
+    "start": 37.428,
+    "end": 37.628,
+    "score": 0.812
+  },
+  {
+    "word": "while",
+    "start": 37.668,
+    "end": 37.909,
+    "score": 0.839
+  },
+  {
+    "word": "john",
+    "start": 38.769,
+    "end": 39.009,
+    "score": 0.758
+  },
+  {
+    "word": "16",
+    "start": 39.149,
+    "end": 39.55,
+    "score": 0.861
+  },
+  {
+    "word": "16",
+    "start": 39.57,
+    "end": 40.13,
+    "score": 0.588
+  },
+  {
+    "word": "the",
+    "start": 41.091,
+    "end": 41.191,
+    "score": 0.78
+  },
+  {
+    "word": "one",
+    "start": 41.291,
+    "end": 41.391,
+    "score": 0.8
+  },
+  {
+    "word": "who",
+    "start": 41.431,
+    "end": 41.511,
+    "score": 0.833
+  },
+  {
+    "word": "would",
+    "start": 41.531,
+    "end": 41.671,
+    "score": 0.89
+  },
+  {
+    "word": "come",
+    "start": 41.711,
+    "end": 41.871,
+    "score": 0.754
+  },
+  {
+    "word": "after",
+    "start": 41.951,
+    "end": 42.131,
+    "score": 0.92
+  },
+  {
+    "word": "his",
+    "start": 42.171,
+    "end": 42.292,
+    "score": 0.502
+  },
+  {
+    "word": "physical",
+    "start": 42.332,
+    "end": 42.752,
+    "score": 0.813
+  },
+  {
+    "word": "departure",
+    "start": 42.792,
+    "end": 43.292,
+    "score": 0.785
+  },
+  {
+    "word": "was",
+    "start": 43.713,
+    "end": 43.873,
+    "score": 0.777
+  },
+  {
+    "word": "the",
+    "start": 43.913,
+    "end": 43.993,
+    "score": 0.836
+  },
+  {
+    "word": "spirit",
+    "start": 44.033,
+    "end": 44.393,
+    "score": 0.766
+  },
+  {
+    "word": "who",
+    "start": 44.413,
+    "end": 44.533,
+    "score": 0.612
+  },
+  {
+    "word": "had",
+    "start": 44.573,
+    "end": 44.693,
+    "score": 0.688
+  },
+  {
+    "word": "dwelt",
+    "start": 44.733,
+    "end": 45.033,
+    "score": 0.708
+  },
+  {
+    "word": "among",
+    "start": 45.134,
+    "end": 45.394,
+    "score": 0.802
+  },
+  {
+    "word": "them",
+    "start": 45.414,
+    "end": 45.574,
+    "score": 0.764
+  },
+  {
+    "word": "in",
+    "start": 45.834,
+    "end": 45.914,
+    "score": 0.796
+  },
+  {
+    "word": "that",
+    "start": 45.954,
+    "end": 46.114,
+    "score": 0.767
+  },
+  {
+    "word": "flesh",
+    "start": 46.174,
+    "end": 46.554,
+    "score": 0.913
+  },
+  {
+    "word": "the",
+    "start": 47.755,
+    "end": 47.875,
+    "score": 0.722
+  },
+  {
+    "word": "very",
+    "start": 47.895,
+    "end": 48.176,
+    "score": 0.669
+  },
+  {
+    "word": "same",
+    "start": 48.256,
+    "end": 48.536,
+    "score": 0.847
+  },
+  {
+    "word": "who",
+    "start": 48.576,
+    "end": 48.696,
+    "score": 0.72
+  },
+  {
+    "word": "had",
+    "start": 48.716,
+    "end": 48.836,
+    "score": 0.671
+  },
+  {
+    "word": "been",
+    "start": 48.856,
+    "end": 48.996,
+    "score": 0.954
+  },
+  {
+    "word": "with",
+    "start": 49.036,
+    "end": 49.156,
+    "score": 0.855
+  },
+  {
+    "word": "the",
+    "start": 49.196,
+    "end": 49.256,
+    "score": 0.998
+  },
+  {
+    "word": "father",
+    "start": 49.296,
+    "end": 49.657,
+    "score": 0.765
+  },
+  {
+    "word": "before",
+    "start": 49.737,
+    "end": 50.017,
+    "score": 0.737
+  },
+  {
+    "word": "the",
+    "start": 50.057,
+    "end": 50.137,
+    "score": 0.834
+  },
+  {
+    "word": "world",
+    "start": 50.177,
+    "end": 50.397,
+    "score": 0.587
+  },
+  {
+    "word": "began",
+    "start": 50.437,
+    "end": 50.817,
+    "score": 0.828
+  },
+  {
+    "word": "and",
+    "start": 51.518,
+    "end": 51.598,
+    "score": 0.835
+  },
+  {
+    "word": "who",
+    "start": 51.638,
+    "end": 51.738,
+    "score": 0.667
+  },
+  {
+    "word": "would",
+    "start": 51.758,
+    "end": 51.898,
+    "score": 0.867
+  },
+  {
+    "word": "now",
+    "start": 51.938,
+    "end": 52.098,
+    "score": 0.709
+  },
+  {
+    "word": "return",
+    "start": 52.158,
+    "end": 52.559,
+    "score": 0.834
+  },
+  {
+    "word": "not",
+    "start": 53.099,
+    "end": 53.279,
+    "score": 0.625
+  },
+  {
+    "word": "in",
+    "start": 53.339,
+    "end": 53.419,
+    "score": 0.823
+  },
+  {
+    "word": "body",
+    "start": 53.459,
+    "end": 53.799,
+    "score": 0.833
+  },
+  {
+    "word": "but",
+    "start": 54.38,
+    "end": 54.52,
+    "score": 0.797
+  },
+  {
+    "word": "in",
+    "start": 54.56,
+    "end": 54.66,
+    "score": 0.74
+  },
+  {
+    "word": "spirit",
+    "start": 54.74,
+    "end": 55.14,
+    "score": 0.801
+  },
+  {
+    "word": "and",
+    "start": 56.121,
+    "end": 56.221,
+    "score": 0.675
+  },
+  {
+    "word": "behold",
+    "start": 56.261,
+    "end": 56.721,
+    "score": 0.784
+  },
+  {
+    "word": "i",
+    "start": 57.362,
+    "end": 57.402,
+    "score": 0.993
+  },
+  {
+    "word": "am",
+    "start": 57.482,
+    "end": 57.562,
+    "score": 0.818
+  },
+  {
+    "word": "with",
+    "start": 57.622,
+    "end": 57.782,
+    "score": 0.673
+  },
+  {
+    "word": "you",
+    "start": 57.822,
+    "end": 57.962,
+    "score": 0.769
+  },
+  {
+    "word": "always",
+    "start": 58.062,
+    "end": 58.403,
+    "score": 0.789
+  },
+  {
+    "word": "even",
+    "start": 59.223,
+    "end": 59.403,
+    "score": 0.925
+  },
+  {
+    "word": "to",
+    "start": 59.463,
+    "end": 59.583,
+    "score": 0.829
+  },
+  {
+    "word": "the",
+    "start": 59.623,
+    "end": 59.704,
+    "score": 0.835
+  },
+  {
+    "word": "end",
+    "start": 59.784,
+    "end": 59.904,
+    "score": 0.819
+  },
+  {
+    "word": "of",
+    "start": 59.964,
+    "end": 60.024,
+    "score": 0.75
+  },
+  {
+    "word": "the",
+    "start": 60.064,
+    "end": 60.164,
+    "score": 0.789
+  },
+  {
+    "word": "age",
+    "start": 60.284,
+    "end": 60.484,
+    "score": 0.719
+  },
+  {
+    "word": "matthew",
+    "start": 61.285,
+    "end": 61.625,
+    "score": 0.922
+  },
+  {
+    "word": "28",
+    "start": 61.785,
+    "end": 61.965,
+    "score": 0.806
+  },
+  {
+    "word": "20",
+    "start": 62.365,
+    "end": 62.545,
+    "score": 0.818
+  },
+  {
+    "word": "the",
+    "start": 63.406,
+    "end": 63.526,
+    "score": 0.693
+  },
+  {
+    "word": "one",
+    "start": 63.626,
+    "end": 63.726,
+    "score": 0.694
+  },
+  {
+    "word": "who",
+    "start": 63.766,
+    "end": 63.886,
+    "score": 0.648
+  },
+  {
+    "word": "now",
+    "start": 63.946,
+    "end": 64.147,
+    "score": 0.786
+  },
+  {
+    "word": "dwells",
+    "start": 64.227,
+    "end": 64.547,
+    "score": 0.686
+  },
+  {
+    "word": "with",
+    "start": 64.567,
+    "end": 64.707,
+    "score": 0.755
+  },
+  {
+    "word": "us",
+    "start": 64.807,
+    "end": 64.887,
+    "score": 0.695
+  },
+  {
+    "word": "is",
+    "start": 64.987,
+    "end": 65.067,
+    "score": 0.5
+  },
+  {
+    "word": "not",
+    "start": 65.127,
+    "end": 65.287,
+    "score": 0.725
+  },
+  {
+    "word": "another",
+    "start": 65.347,
+    "end": 65.648,
+    "score": 0.775
+  },
+  {
+    "word": "but",
+    "start": 66.328,
+    "end": 66.448,
+    "score": 0.834
+  },
+  {
+    "word": "the",
+    "start": 66.488,
+    "end": 66.609,
+    "score": 0.707
+  },
+  {
+    "word": "One",
+    "start": 66.809,
+    "end": 66.929,
+    "score": 0.702
+  },
+  {
+    "word": "who",
+    "start": 67.009,
+    "end": 67.13,
+    "score": 0.653
+  },
+  {
+    "word": "was",
+    "start": 67.17,
+    "end": 67.31,
+    "score": 0.935
+  },
+  {
+    "word": "begotten",
+    "start": 67.37,
+    "end": 67.891,
+    "score": 0.87
+  },
+  {
+    "word": "from",
+    "start": 67.991,
+    "end": 68.172,
+    "score": 0.684
+  },
+  {
+    "word": "the",
+    "start": 68.212,
+    "end": 68.312,
+    "score": 0.668
+  },
+  {
+    "word": "Father",
+    "start": 68.352,
+    "end": 68.713,
+    "score": 0.76
+  },
+  {
+    "word": "before",
+    "start": 68.793,
+    "end": 69.073,
+    "score": 0.778
+  },
+  {
+    "word": "the",
+    "start": 69.133,
+    "end": 69.214,
+    "score": 0.837
+  },
+  {
+    "word": "world",
+    "start": 69.254,
+    "end": 69.514,
+    "score": 0.621
+  },
+  {
+    "word": "began.",
+    "start": 69.554,
+    "end": 69.975,
+    "score": 0.935
+  },
+  {
+    "word": "The",
+    "start": 71.217,
+    "end": 71.338,
+    "score": 0.867
+  },
+  {
+    "word": "Holy",
+    "start": 71.398,
+    "end": 71.698,
+    "score": 0.876
+  },
+  {
+    "word": "Spirit",
+    "start": 71.779,
+    "end": 72.179,
+    "score": 0.845
+  },
+  {
+    "word": "is",
+    "start": 72.56,
+    "end": 72.64,
+    "score": 0.79
+  },
+  {
+    "word": "the",
+    "start": 72.68,
+    "end": 72.78,
+    "score": 0.796
+  },
+  {
+    "word": "Son",
+    "start": 72.821,
+    "end": 73.001,
+    "score": 0.874
+  },
+  {
+    "word": "of",
+    "start": 73.041,
+    "end": 73.101,
+    "score": 0.75
+  },
+  {
+    "word": "God,",
+    "start": 73.141,
+    "end": 73.482,
+    "score": 0.804
+  },
+  {
+    "word": "the",
+    "start": 74.183,
+    "end": 74.303,
+    "score": 0.821
+  },
+  {
+    "word": "only",
+    "start": 74.404,
+    "end": 74.584,
+    "score": 0.797
+  },
+  {
+    "word": "begotten",
+    "start": 74.644,
+    "end": 75.145,
+    "score": 0.876
+  },
+  {
+    "word": "life-giving",
+    "start": 75.205,
+    "end": 75.806,
+    "score": 0.869
+  },
+  {
+    "word": "Spirit",
+    "start": 75.886,
+    "end": 76.287,
+    "score": 0.817
+  },
+  {
+    "word": "who",
+    "start": 76.648,
+    "end": 76.788,
+    "score": 0.778
+  },
+  {
+    "word": "now",
+    "start": 76.848,
+    "end": 77.049,
+    "score": 0.834
+  },
+  {
+    "word": "dwells",
+    "start": 77.129,
+    "end": 77.489,
+    "score": 0.794
+  },
+  {
+    "word": "in",
+    "start": 77.55,
+    "end": 77.63,
+    "score": 0.846
+  },
+  {
+    "word": "believers.",
+    "start": 77.67,
+    "end": 78.151,
+    "score": 0.839
+  },
+  {
+    "word": "For",
+    "start": 79.572,
+    "end": 79.732,
+    "score": 0.872
+  },
+  {
+    "word": "all",
+    "start": 79.872,
+    "end": 80.012,
+    "score": 0.718
+  },
+  {
+    "word": "who",
+    "start": 80.032,
+    "end": 80.172,
+    "score": 0.686
+  },
+  {
+    "word": "are",
+    "start": 80.252,
+    "end": 80.352,
+    "score": 0.666
+  },
+  {
+    "word": "led",
+    "start": 80.392,
+    "end": 80.592,
+    "score": 0.873
+  },
+  {
+    "word": "by",
+    "start": 80.672,
+    "end": 80.792,
+    "score": 0.832
+  },
+  {
+    "word": "the",
+    "start": 80.832,
+    "end": 80.933,
+    "score": 0.802
+  },
+  {
+    "word": "Spirit",
+    "start": 80.973,
+    "end": 81.313,
+    "score": 0.716
+  },
+  {
+    "word": "of",
+    "start": 81.333,
+    "end": 81.413,
+    "score": 0.725
+  },
+  {
+    "word": "God",
+    "start": 81.453,
+    "end": 81.793,
+    "score": 0.822
+  },
+  {
+    "word": "are",
+    "start": 82.213,
+    "end": 82.313,
+    "score": 0.791
+  },
+  {
+    "word": "children",
+    "start": 82.373,
+    "end": 82.733,
+    "score": 0.841
+  },
+  {
+    "word": "of",
+    "start": 82.773,
+    "end": 82.833,
+    "score": 0.75
+  },
+  {
+    "word": "God.",
+    "start": 82.893,
+    "end": 83.233,
+    "score": 0.811
+  },
+  {
+    "word": "Romans",
+    "start": 83.894,
+    "end": 84.474,
+    "score": 0.781
+  },
+  {
+    "word": "8.14",
+    "start": 84.694,
+    "end": 85.074,
+    "score": 0.805
+  },
+  {
+    "word": "This",
+    "start": 86.134,
+    "end": 86.314,
+    "score": 0.804
+  },
+  {
+    "word": "Spirit",
+    "start": 86.354,
+    "end": 86.735,
+    "score": 0.831
+  },
+  {
+    "word": "is",
+    "start": 86.795,
+    "end": 86.855,
+    "score": 0.914
+  },
+  {
+    "word": "not",
+    "start": 86.915,
+    "end": 87.075,
+    "score": 0.782
+  },
+  {
+    "word": "separate",
+    "start": 87.135,
+    "end": 87.495,
+    "score": 0.759
+  },
+  {
+    "word": "from",
+    "start": 87.535,
+    "end": 87.675,
+    "score": 0.905
+  },
+  {
+    "word": "the",
+    "start": 87.715,
+    "end": 87.815,
+    "score": 0.851
+  },
+  {
+    "word": "Son.",
+    "start": 87.855,
+    "end": 88.135,
+    "score": 0.875
+  },
+  {
+    "word": "He",
+    "start": 88.875,
+    "end": 88.975,
+    "score": 0.829
+  },
+  {
+    "word": "is",
+    "start": 89.055,
+    "end": 89.135,
+    "score": 0.806
+  },
+  {
+    "word": "the",
+    "start": 89.175,
+    "end": 89.275,
+    "score": 0.919
+  },
+  {
+    "word": "Son",
+    "start": 89.335,
+    "end": 89.596,
+    "score": 0.781
+  },
+  {
+    "word": "Himself.",
+    "start": 89.676,
+    "end": 90.156,
+    "score": 0.931
+  },
+  {
+    "word": "Paul",
+    "start": 91.036,
+    "end": 91.296,
+    "score": 0.854
+  },
+  {
+    "word": "confirms,",
+    "start": 91.376,
+    "end": 91.916,
+    "score": 0.868
+  },
+  {
+    "word": "God",
+    "start": 92.777,
+    "end": 93.037,
+    "score": 0.822
+  },
+  {
+    "word": "has",
+    "start": 93.077,
+    "end": 93.217,
+    "score": 0.9
+  },
+  {
+    "word": "sent",
+    "start": 93.257,
+    "end": 93.477,
+    "score": 0.771
+  },
+  {
+    "word": "the",
+    "start": 93.517,
+    "end": 93.617,
+    "score": 0.835
+  },
+  {
+    "word": "Spirit",
+    "start": 93.657,
+    "end": 94.037,
+    "score": 0.716
+  },
+  {
+    "word": "of",
+    "start": 94.417,
+    "end": 94.497,
+    "score": 0.889
+  },
+  {
+    "word": "His",
+    "start": 94.557,
+    "end": 94.677,
+    "score": 0.782
+  },
+  {
+    "word": "Son",
+    "start": 94.737,
+    "end": 95.038,
+    "score": 0.813
+  },
+  {
+    "word": "into",
+    "start": 95.238,
+    "end": 95.458,
+    "score": 0.916
+  },
+  {
+    "word": "our",
+    "start": 95.578,
+    "end": 95.678,
+    "score": 0.805
+  },
+  {
+    "word": "hearts,",
+    "start": 95.718,
+    "end": 96.038,
+    "score": 0.76
+  },
+  {
+    "word": "crying,",
+    "start": 96.898,
+    "end": 97.378,
+    "score": 0.828
+  },
+  {
+    "word": "Abba,",
+    "start": 98.439,
+    "end": 98.699,
+    "score": 0.778
+  },
+  {
+    "word": "Father.",
+    "start": 98.739,
+    "end": 99.119,
+    "score": 0.849
+  },
+  {
+    "word": "Galatians",
+    "start": 99.859,
+    "end": 100.399,
+    "score": 0.851
+  },
+  {
+    "word": "4.6",
+    "start": 100.419,
+    "end": 100.519,
+    "score": 0.868
+  },
+  {
+    "word": "When",
+    "start": 102.12,
+    "end": 102.26,
+    "score": 0.926
+  },
+  {
+    "word": "Scripture",
+    "start": 102.32,
+    "end": 102.68,
+    "score": 0.855
+  },
+  {
+    "word": "says",
+    "start": 102.72,
+    "end": 102.94,
+    "score": 0.71
+  },
+  {
+    "word": "the",
+    "start": 103.0,
+    "end": 103.1,
+    "score": 0.782
+  },
+  {
+    "word": "Father",
+    "start": 103.12,
+    "end": 103.501,
+    "score": 0.764
+  },
+  {
+    "word": "sent",
+    "start": 103.601,
+    "end": 103.861,
+    "score": 0.819
+  },
+  {
+    "word": "the",
+    "start": 103.941,
+    "end": 104.041,
+    "score": 0.97
+  },
+  {
+    "word": "Spirit",
+    "start": 104.081,
+    "end": 104.401,
+    "score": 0.815
+  },
+  {
+    "word": "of",
+    "start": 104.441,
+    "end": 104.501,
+    "score": 0.75
+  },
+  {
+    "word": "His",
+    "start": 104.561,
+    "end": 104.661,
+    "score": 0.866
+  },
+  {
+    "word": "Son,",
+    "start": 104.721,
+    "end": 105.001,
+    "score": 0.863
+  },
+  {
+    "word": "it",
+    "start": 105.802,
+    "end": 105.862,
+    "score": 0.948
+  },
+  {
+    "word": "means",
+    "start": 105.922,
+    "end": 106.142,
+    "score": 0.769
+  },
+  {
+    "word": "He",
+    "start": 106.182,
+    "end": 106.282,
+    "score": 0.614
+  },
+  {
+    "word": "imparted",
+    "start": 106.342,
+    "end": 106.782,
+    "score": 0.871
+  },
+  {
+    "word": "the",
+    "start": 106.842,
+    "end": 106.942,
+    "score": 0.746
+  },
+  {
+    "word": "Son's",
+    "start": 107.002,
+    "end": 107.322,
+    "score": 0.817
+  },
+  {
+    "word": "own",
+    "start": 107.763,
+    "end": 107.923,
+    "score": 0.724
+  },
+  {
+    "word": "personal",
+    "start": 108.003,
+    "end": 108.463,
+    "score": 0.862
+  },
+  {
+    "word": "presence",
+    "start": 108.543,
+    "end": 108.943,
+    "score": 0.899
+  },
+  {
+    "word": "into",
+    "start": 109.003,
+    "end": 109.223,
+    "score": 0.851
+  },
+  {
+    "word": "us.",
+    "start": 109.323,
+    "end": 109.443,
+    "score": 0.739
+  },
+  {
+    "word": "It",
+    "start": 110.424,
+    "end": 110.484,
+    "score": 0.769
+  },
+  {
+    "word": "is",
+    "start": 110.544,
+    "end": 110.624,
+    "score": 0.5
+  },
+  {
+    "word": "not",
+    "start": 110.664,
+    "end": 110.824,
+    "score": 0.675
+  },
+  {
+    "word": "a",
+    "start": 110.864,
+    "end": 110.884,
+    "score": 0.999
+  },
+  {
+    "word": "substitute.",
+    "start": 110.944,
+    "end": 111.584,
+    "score": 0.792
+  },
+  {
+    "word": "It",
+    "start": 112.305,
+    "end": 112.365,
+    "score": 0.762
+  },
+  {
+    "word": "is",
+    "start": 112.425,
+    "end": 112.485,
+    "score": 0.95
+  },
+  {
+    "word": "the",
+    "start": 112.545,
+    "end": 112.645,
+    "score": 0.688
+  },
+  {
+    "word": "Son",
+    "start": 112.685,
+    "end": 112.905,
+    "score": 0.785
+  },
+  {
+    "word": "Himself",
+    "start": 112.965,
+    "end": 113.345,
+    "score": 0.859
+  },
+  {
+    "word": "dwelling",
+    "start": 113.405,
+    "end": 113.745,
+    "score": 0.815
+  },
+  {
+    "word": "within.",
+    "start": 113.785,
+    "end": 114.106,
+    "score": 0.902
+  },
+  {
+    "word": "And",
+    "start": 115.046,
+    "end": 115.146,
+    "score": 0.673
+  },
+  {
+    "word": "again,",
+    "start": 115.186,
+    "end": 115.466,
+    "score": 0.83
+  },
+  {
+    "word": "You",
+    "start": 116.267,
+    "end": 116.407,
+    "score": 0.929
+  },
+  {
+    "word": "received",
+    "start": 116.447,
+    "end": 116.927,
+    "score": 0.784
+  },
+  {
+    "word": "the",
+    "start": 117.167,
+    "end": 117.267,
+    "score": 0.876
+  },
+  {
+    "word": "Spirit",
+    "start": 117.327,
+    "end": 117.687,
+    "score": 0.739
+  },
+  {
+    "word": "of",
+    "start": 117.747,
+    "end": 117.827,
+    "score": 0.681
+  },
+  {
+    "word": "adoption",
+    "start": 117.907,
+    "end": 118.468,
+    "score": 0.862
+  },
+  {
+    "word": "by",
+    "start": 119.068,
+    "end": 119.208,
+    "score": 0.833
+  },
+  {
+    "word": "whom",
+    "start": 119.268,
+    "end": 119.488,
+    "score": 0.688
+  },
+  {
+    "word": "we",
+    "start": 119.548,
+    "end": 119.648,
+    "score": 0.991
+  },
+  {
+    "word": "cry",
+    "start": 119.708,
+    "end": 119.988,
+    "score": 0.823
+  },
+  {
+    "word": "out,",
+    "start": 120.088,
+    "end": 120.228,
+    "score": 0.85
+  },
+  {
+    "word": "Abba,",
+    "start": 120.949,
+    "end": 121.209,
+    "score": 0.744
+  },
+  {
+    "word": "Father.",
+    "start": 121.389,
+    "end": 121.749,
+    "score": 0.856
+  },
+  {
+    "word": "Romans",
+    "start": 122.89,
+    "end": 123.25,
+    "score": 0.872
+  },
+  {
+    "word": "8.15",
+    "start": 123.73,
+    "end": 124.11,
+    "score": 0.846
+  },
+  {
+    "word": "The",
+    "start": 125.211,
+    "end": 125.311,
+    "score": 0.976
+  },
+  {
+    "word": "Spirit",
+    "start": 125.371,
+    "end": 125.691,
+    "score": 0.761
+  },
+  {
+    "word": "who",
+    "start": 125.711,
+    "end": 125.831,
+    "score": 0.733
+  },
+  {
+    "word": "indwells",
+    "start": 125.871,
+    "end": 126.291,
+    "score": 0.739
+  },
+  {
+    "word": "us",
+    "start": 126.391,
+    "end": 126.491,
+    "score": 0.564
+  },
+  {
+    "word": "calls",
+    "start": 126.571,
+    "end": 126.831,
+    "score": 0.832
+  },
+  {
+    "word": "God",
+    "start": 126.851,
+    "end": 127.091,
+    "score": 0.869
+  },
+  {
+    "word": "Father",
+    "start": 127.152,
+    "end": 127.512,
+    "score": 0.756
+  },
+  {
+    "word": "because",
+    "start": 128.092,
+    "end": 128.352,
+    "score": 0.83
+  },
+  {
+    "word": "He",
+    "start": 128.392,
+    "end": 128.472,
+    "score": 0.804
+  },
+  {
+    "word": "is",
+    "start": 128.532,
+    "end": 128.612,
+    "score": 0.742
+  },
+  {
+    "word": "the",
+    "start": 128.672,
+    "end": 128.772,
+    "score": 0.672
+  },
+  {
+    "word": "Son",
+    "start": 128.832,
+    "end": 129.152,
+    "score": 0.655
+  },
+  {
+    "word": "of",
+    "start": 129.212,
+    "end": 129.272,
+    "score": 0.845
+  },
+  {
+    "word": "the",
+    "start": 129.313,
+    "end": 129.393,
+    "score": 0.834
+  },
+  {
+    "word": "Father.",
+    "start": 129.433,
+    "end": 129.773,
+    "score": 0.905
+  },
+  {
+    "word": "This",
+    "start": 130.869,
+    "end": 131.009,
+    "score": 0.943
+  },
+  {
+    "word": "is",
+    "start": 131.069,
+    "end": 131.129,
+    "score": 0.868
+  },
+  {
+    "word": "not",
+    "start": 131.189,
+    "end": 131.33,
+    "score": 0.733
+  },
+  {
+    "word": "the",
+    "start": 131.35,
+    "end": 131.47,
+    "score": 0.613
+  },
+  {
+    "word": "uncreated",
+    "start": 131.59,
+    "end": 132.151,
+    "score": 0.88
+  },
+  {
+    "word": "God",
+    "start": 132.211,
+    "end": 132.491,
+    "score": 0.849
+  },
+  {
+    "word": "dwelling",
+    "start": 132.551,
+    "end": 132.911,
+    "score": 0.889
+  },
+  {
+    "word": "in",
+    "start": 132.951,
+    "end": 133.032,
+    "score": 0.833
+  },
+  {
+    "word": "us,",
+    "start": 133.132,
+    "end": 133.232,
+    "score": 0.83
+  },
+  {
+    "word": "but",
+    "start": 133.893,
+    "end": 134.013,
+    "score": 0.819
+  },
+  {
+    "word": "the",
+    "start": 134.033,
+    "end": 134.153,
+    "score": 0.548
+  },
+  {
+    "word": "only",
+    "start": 134.313,
+    "end": 134.513,
+    "score": 0.815
+  },
+  {
+    "word": "begotten",
+    "start": 134.573,
+    "end": 135.034,
+    "score": 0.961
+  },
+  {
+    "word": "God,",
+    "start": 135.074,
+    "end": 135.394,
+    "score": 0.907
+  },
+  {
+    "word": "the",
+    "start": 135.955,
+    "end": 136.055,
+    "score": 0.89
+  },
+  {
+    "word": "Son,",
+    "start": 136.115,
+    "end": 136.436,
+    "score": 0.825
+  },
+  {
+    "word": "Romans",
+    "start": 136.996,
+    "end": 137.337,
+    "score": 0.867
+  },
+  {
+    "word": "8.11,",
+    "start": 137.577,
+    "end": 137.917,
+    "score": 0.843
+  },
+  {
+    "word": "Galatians",
+    "start": 138.518,
+    "end": 139.079,
+    "score": 0.857
+  },
+  {
+    "word": "4.6.",
+    "start": 139.099,
+    "end": 139.799,
+    "score": 0.838
+  },
+  {
+    "word": "Even",
+    "start": 141.061,
+    "end": 141.261,
+    "score": 0.812
+  },
+  {
+    "word": "though",
+    "start": 141.321,
+    "end": 141.582,
+    "score": 0.706
+  },
+  {
+    "word": "we",
+    "start": 141.662,
+    "end": 141.782,
+    "score": 0.836
+  },
+  {
+    "word": "have",
+    "start": 141.822,
+    "end": 141.962,
+    "score": 0.881
+  },
+  {
+    "word": "known",
+    "start": 142.022,
+    "end": 142.242,
+    "score": 0.689
+  },
+  {
+    "word": "Christ",
+    "start": 142.342,
+    "end": 142.783,
+    "score": 0.69
+  },
+  {
+    "word": "according",
+    "start": 142.943,
+    "end": 143.384,
+    "score": 0.788
+  },
+  {
+    "word": "to",
+    "start": 143.424,
+    "end": 143.544,
+    "score": 0.826
+  },
+  {
+    "word": "the",
+    "start": 143.584,
+    "end": 143.664,
+    "score": 0.831
+  },
+  {
+    "word": "flesh,",
+    "start": 143.744,
+    "end": 144.124,
+    "score": 0.987
+  },
+  {
+    "word": "yet",
+    "start": 144.985,
+    "end": 145.206,
+    "score": 0.757
+  },
+  {
+    "word": "now",
+    "start": 145.326,
+    "end": 145.626,
+    "score": 0.831
+  },
+  {
+    "word": "we",
+    "start": 146.127,
+    "end": 146.287,
+    "score": 0.832
+  },
+  {
+    "word": "know",
+    "start": 146.347,
+    "end": 146.567,
+    "score": 0.626
+  },
+  {
+    "word": "him",
+    "start": 146.627,
+    "end": 146.788,
+    "score": 0.812
+  },
+  {
+    "word": "in",
+    "start": 146.868,
+    "end": 146.948,
+    "score": 0.688
+  },
+  {
+    "word": "this",
+    "start": 146.988,
+    "end": 147.168,
+    "score": 0.837
+  },
+  {
+    "word": "way",
+    "start": 147.248,
+    "end": 147.468,
+    "score": 0.853
+  },
+  {
+    "word": "no",
+    "start": 147.669,
+    "end": 147.829,
+    "score": 0.9
+  },
+  {
+    "word": "longer,",
+    "start": 147.889,
+    "end": 148.309,
+    "score": 0.757
+  },
+  {
+    "word": "2",
+    "start": 149.351,
+    "end": 149.451,
+    "score": 0.511
+  },
+  {
+    "word": "Corinthians",
+    "start": 149.491,
+    "end": 150.091,
+    "score": 0.899
+  },
+  {
+    "word": "5.16.",
+    "start": 150.111,
+    "end": 150.632,
+    "score": 0.961
+  },
+  {
+    "word": "We",
+    "start": 152.975,
+    "end": 153.075,
+    "score": 1.0
+  },
+  {
+    "word": "are",
+    "start": 153.135,
+    "end": 153.215,
+    "score": 0.838
+  },
+  {
+    "word": "no",
+    "start": 153.275,
+    "end": 153.375,
+    "score": 0.924
+  },
+  {
+    "word": "longer",
+    "start": 153.435,
+    "end": 153.736,
+    "score": 0.797
+  },
+  {
+    "word": "to",
+    "start": 153.796,
+    "end": 153.896,
+    "score": 0.998
+  },
+  {
+    "word": "regard",
+    "start": 153.956,
+    "end": 154.356,
+    "score": 0.801
+  },
+  {
+    "word": "Christ",
+    "start": 154.436,
+    "end": 154.856,
+    "score": 0.648
+  },
+  {
+    "word": "according",
+    "start": 155.017,
+    "end": 155.437,
+    "score": 0.828
+  },
+  {
+    "word": "to",
+    "start": 155.477,
+    "end": 155.617,
+    "score": 0.638
+  },
+  {
+    "word": "his",
+    "start": 155.677,
+    "end": 155.817,
+    "score": 0.677
+  },
+  {
+    "word": "human",
+    "start": 155.857,
+    "end": 156.137,
+    "score": 0.706
+  },
+  {
+    "word": "form.",
+    "start": 156.197,
+    "end": 156.558,
+    "score": 0.818
+  },
+  {
+    "word": "The",
+    "start": 157.398,
+    "end": 157.498,
+    "score": 0.999
+  },
+  {
+    "word": "one",
+    "start": 157.598,
+    "end": 157.699,
+    "score": 0.667
+  },
+  {
+    "word": "who",
+    "start": 157.739,
+    "end": 157.859,
+    "score": 0.889
+  },
+  {
+    "word": "walked",
+    "start": 157.919,
+    "end": 158.219,
+    "score": 0.913
+  },
+  {
+    "word": "among",
+    "start": 158.299,
+    "end": 158.599,
+    "score": 0.711
+  },
+  {
+    "word": "men",
+    "start": 158.659,
+    "end": 158.939,
+    "score": 0.824
+  },
+  {
+    "word": "is",
+    "start": 159.26,
+    "end": 159.34,
+    "score": 0.942
+  },
+  {
+    "word": "now",
+    "start": 159.4,
+    "end": 159.58,
+    "score": 0.9
+  },
+  {
+    "word": "known",
+    "start": 159.68,
+    "end": 160.0,
+    "score": 0.803
+  },
+  {
+    "word": "by",
+    "start": 160.1,
+    "end": 160.24,
+    "score": 0.742
+  },
+  {
+    "word": "his",
+    "start": 160.3,
+    "end": 160.401,
+    "score": 0.833
+  },
+  {
+    "word": "true",
+    "start": 160.461,
+    "end": 160.661,
+    "score": 0.763
+  },
+  {
+    "word": "identity,",
+    "start": 160.761,
+    "end": 161.261,
+    "score": 0.794
+  },
+  {
+    "word": "the",
+    "start": 161.902,
+    "end": 162.002,
+    "score": 0.854
+  },
+  {
+    "word": "Holy",
+    "start": 162.042,
+    "end": 162.302,
+    "score": 0.635
+  },
+  {
+    "word": "Spirit.",
+    "start": 162.342,
+    "end": 162.762,
+    "score": 0.774
+  },
+  {
+    "word": "He",
+    "start": 163.583,
+    "end": 163.703,
+    "score": 0.572
+  },
+  {
+    "word": "was",
+    "start": 163.763,
+    "end": 163.883,
+    "score": 0.846
+  },
+  {
+    "word": "not",
+    "start": 163.963,
+    "end": 164.123,
+    "score": 0.82
+  },
+  {
+    "word": "a",
+    "start": 164.163,
+    "end": 164.203,
+    "score": 0.501
+  },
+  {
+    "word": "man",
+    "start": 164.243,
+    "end": 164.544,
+    "score": 0.714
+  },
+  {
+    "word": "with",
+    "start": 164.604,
+    "end": 164.764,
+    "score": 0.756
+  },
+  {
+    "word": "a",
+    "start": 164.784,
+    "end": 164.824,
+    "score": 0.493
+  },
+  {
+    "word": "created",
+    "start": 164.884,
+    "end": 165.304,
+    "score": 0.924
+  },
+  {
+    "word": "soul",
+    "start": 165.404,
+    "end": 165.744,
+    "score": 0.734
+  },
+  {
+    "word": "and",
+    "start": 166.445,
+    "end": 166.545,
+    "score": 0.797
+  },
+  {
+    "word": "a",
+    "start": 166.605,
+    "end": 166.645,
+    "score": 0.5
+  },
+  {
+    "word": "divine",
+    "start": 166.685,
+    "end": 167.045,
+    "score": 0.867
+  },
+  {
+    "word": "spirit.",
+    "start": 167.125,
+    "end": 167.546,
+    "score": 0.746
+  },
+  {
+    "word": "He",
+    "start": 168.466,
+    "end": 168.587,
+    "score": 0.955
+  },
+  {
+    "word": "was",
+    "start": 168.647,
+    "end": 168.787,
+    "score": 0.792
+  },
+  {
+    "word": "the",
+    "start": 168.827,
+    "end": 168.907,
+    "score": 0.928
+  },
+  {
+    "word": "life-giving",
+    "start": 168.967,
+    "end": 169.507,
+    "score": 0.837
+  },
+  {
+    "word": "Spirit",
+    "start": 169.587,
+    "end": 169.928,
+    "score": 0.798
+  },
+  {
+    "word": "himself,",
+    "start": 169.968,
+    "end": 170.448,
+    "score": 0.736
+  },
+  {
+    "word": "functioning",
+    "start": 171.509,
+    "end": 172.069,
+    "score": 0.736
+  },
+  {
+    "word": "as",
+    "start": 172.469,
+    "end": 172.569,
+    "score": 0.584
+  },
+  {
+    "word": "the",
+    "start": 172.61,
+    "end": 172.73,
+    "score": 0.615
+  },
+  {
+    "word": "inner",
+    "start": 172.83,
+    "end": 173.03,
+    "score": 0.885
+  },
+  {
+    "word": "man,",
+    "start": 173.07,
+    "end": 173.37,
+    "score": 0.868
+  },
+  {
+    "word": "dwelling",
+    "start": 174.031,
+    "end": 174.471,
+    "score": 0.835
+  },
+  {
+    "word": "in",
+    "start": 174.711,
+    "end": 174.791,
+    "score": 0.764
+  },
+  {
+    "word": "a",
+    "start": 174.851,
+    "end": 174.871,
+    "score": 0.999
+  },
+  {
+    "word": "genuine",
+    "start": 174.951,
+    "end": 175.412,
+    "score": 0.722
+  },
+  {
+    "word": "human",
+    "start": 175.692,
+    "end": 175.992,
+    "score": 0.84
+  },
+  {
+    "word": "body.",
+    "start": 176.052,
+    "end": 176.392,
+    "score": 0.995
+  },
+  {
+    "word": "He",
+    "start": 177.493,
+    "end": 177.593,
+    "score": 0.897
+  },
+  {
+    "word": "was",
+    "start": 177.653,
+    "end": 177.774,
+    "score": 0.889
+  },
+  {
+    "word": "the",
+    "start": 177.814,
+    "end": 177.914,
+    "score": 0.891
+  },
+  {
+    "word": "only",
+    "start": 178.094,
+    "end": 178.314,
+    "score": 0.682
+  },
+  {
+    "word": "begotten",
+    "start": 178.354,
+    "end": 178.815,
+    "score": 0.928
+  },
+  {
+    "word": "life-giving",
+    "start": 178.875,
+    "end": 179.416,
+    "score": 0.792
+  },
+  {
+    "word": "Spirit,",
+    "start": 179.496,
+    "end": 179.877,
+    "score": 0.878
+  },
+  {
+    "word": "made",
+    "start": 180.598,
+    "end": 180.878,
+    "score": 0.823
+  },
+  {
+    "word": "in",
+    "start": 181.038,
+    "end": 181.119,
+    "score": 0.83
+  },
+  {
+    "word": "the",
+    "start": 181.139,
+    "end": 181.219,
+    "score": 0.995
+  },
+  {
+    "word": "likeness",
+    "start": 181.279,
+    "end": 181.699,
+    "score": 0.825
+  },
+  {
+    "word": "of",
+    "start": 181.84,
+    "end": 181.9,
+    "score": 0.989
+  },
+  {
+    "word": "men.",
+    "start": 181.98,
+    "end": 182.24,
+    "score": 0.874
+  },
+  {
+    "word": "Philippians",
+    "start": 182.901,
+    "end": 183.522,
+    "score": 0.849
+  },
+  {
+    "word": "2.7",
+    "start": 184.223,
+    "end": 184.443,
+    "score": 0.761
+  },
+  {
+    "word": "A",
+    "start": 185.325,
+    "end": 185.365,
+    "score": 0.719
+  },
+  {
+    "word": "condition",
+    "start": 185.405,
+    "end": 185.886,
+    "score": 0.825
+  },
+  {
+    "word": "of",
+    "start": 185.946,
+    "end": 186.006,
+    "score": 0.76
+  },
+  {
+    "word": "humility",
+    "start": 186.066,
+    "end": 186.567,
+    "score": 0.853
+  },
+  {
+    "word": "He",
+    "start": 186.867,
+    "end": 186.967,
+    "score": 0.954
+  },
+  {
+    "word": "assumed",
+    "start": 187.027,
+    "end": 187.488,
+    "score": 0.859
+  },
+  {
+    "word": "for",
+    "start": 187.868,
+    "end": 188.049,
+    "score": 0.798
+  },
+  {
+    "word": "a",
+    "start": 188.069,
+    "end": 188.089,
+    "score": 0.997
+  },
+  {
+    "word": "little",
+    "start": 188.149,
+    "end": 188.349,
+    "score": 0.918
+  },
+  {
+    "word": "while",
+    "start": 188.389,
+    "end": 188.67,
+    "score": 0.728
+  },
+  {
+    "word": "for",
+    "start": 189.21,
+    "end": 189.331,
+    "score": 0.995
+  },
+  {
+    "word": "the",
+    "start": 189.371,
+    "end": 189.451,
+    "score": 0.834
+  },
+  {
+    "word": "suffering",
+    "start": 189.511,
+    "end": 189.931,
+    "score": 0.872
+  },
+  {
+    "word": "of",
+    "start": 190.132,
+    "end": 190.192,
+    "score": 0.752
+  },
+  {
+    "word": "death.",
+    "start": 190.252,
+    "end": 190.512,
+    "score": 0.959
+  },
+  {
+    "word": "Hebrews",
+    "start": 191.273,
+    "end": 191.634,
+    "score": 0.867
+  },
+  {
+    "word": "2.9",
+    "start": 191.654,
+    "end": 191.734,
+    "score": 0.991
+  },
+  {
+    "word": "after",
+    "start": 193.615,
+    "end": 193.815,
+    "score": 0.804
+  },
+  {
+    "word": "his",
+    "start": 193.855,
+    "end": 193.975,
+    "score": 0.899
+  },
+  {
+    "word": "resurrection",
+    "start": 194.055,
+    "end": 194.736,
+    "score": 0.824
+  },
+  {
+    "word": "he",
+    "start": 195.256,
+    "end": 195.356,
+    "score": 0.668
+  },
+  {
+    "word": "returned",
+    "start": 195.416,
+    "end": 195.896,
+    "score": 0.756
+  },
+  {
+    "word": "to",
+    "start": 196.316,
+    "end": 196.456,
+    "score": 0.816
+  },
+  {
+    "word": "the",
+    "start": 196.476,
+    "end": 196.576,
+    "score": 0.672
+  },
+  {
+    "word": "glory",
+    "start": 196.616,
+    "end": 197.056,
+    "score": 0.764
+  },
+  {
+    "word": "he",
+    "start": 197.116,
+    "end": 197.236,
+    "score": 0.897
+  },
+  {
+    "word": "had",
+    "start": 197.296,
+    "end": 197.536,
+    "score": 0.856
+  },
+  {
+    "word": "with",
+    "start": 197.596,
+    "end": 197.736,
+    "score": 0.843
+  },
+  {
+    "word": "the",
+    "start": 197.776,
+    "end": 197.857,
+    "score": 0.83
+  },
+  {
+    "word": "father",
+    "start": 197.897,
+    "end": 198.297,
+    "score": 0.815
+  },
+  {
+    "word": "before",
+    "start": 198.777,
+    "end": 199.157,
+    "score": 0.799
+  },
+  {
+    "word": "the",
+    "start": 199.197,
+    "end": 199.297,
+    "score": 0.825
+  },
+  {
+    "word": "world",
+    "start": 199.357,
+    "end": 199.677,
+    "score": 0.696
+  },
+  {
+    "word": "existed",
+    "start": 199.957,
+    "end": 200.477,
+    "score": 0.888
+  },
+  {
+    "word": "john",
+    "start": 201.277,
+    "end": 201.518,
+    "score": 0.761
+  },
+  {
+    "word": "17",
+    "start": 201.578,
+    "end": 202.158,
+    "score": 0.65
+  },
+  {
+    "word": "5",
+    "start": 202.278,
+    "end": 202.618,
+    "score": 0.721
+  },
+  {
+    "word": "as",
+    "start": 203.958,
+    "end": 204.078,
+    "score": 0.754
+  },
+  {
+    "word": "the",
+    "start": 204.378,
+    "end": 204.498,
+    "score": 0.732
+  },
+  {
+    "word": "firstborn",
+    "start": 204.558,
+    "end": 205.159,
+    "score": 0.785
+  },
+  {
+    "word": "of",
+    "start": 205.259,
+    "end": 205.319,
+    "score": 0.786
+  },
+  {
+    "word": "all",
+    "start": 205.419,
+    "end": 205.539,
+    "score": 0.855
+  },
+  {
+    "word": "creation",
+    "start": 205.599,
+    "end": 206.139,
+    "score": 0.767
+  },
+  {
+    "word": "colossians",
+    "start": 206.919,
+    "end": 207.459,
+    "score": 0.75
+  },
+  {
+    "word": "1",
+    "start": 207.619,
+    "end": 207.739,
+    "score": 0.626
+  },
+  {
+    "word": "15",
+    "start": 207.899,
+    "end": 208.279,
+    "score": 0.8
+  },
+  {
+    "word": "and",
+    "start": 209.1,
+    "end": 209.18,
+    "score": 0.945
+  },
+  {
+    "word": "the",
+    "start": 209.22,
+    "end": 209.3,
+    "score": 0.98
+  },
+  {
+    "word": "beginning",
+    "start": 209.34,
+    "end": 209.78,
+    "score": 0.861
+  },
+  {
+    "word": "of",
+    "start": 209.84,
+    "end": 209.9,
+    "score": 0.964
+  },
+  {
+    "word": "the",
+    "start": 209.94,
+    "end": 210.02,
+    "score": 0.834
+  },
+  {
+    "word": "creation",
+    "start": 210.06,
+    "end": 210.52,
+    "score": 0.905
+  },
+  {
+    "word": "of",
+    "start": 210.54,
+    "end": 210.6,
+    "score": 0.75
+  },
+  {
+    "word": "god",
+    "start": 210.64,
+    "end": 210.96,
+    "score": 0.805
+  },
+  {
+    "word": "revelation",
+    "start": 212.1,
+    "end": 212.641,
+    "score": 0.862
+  },
+  {
+    "word": "3",
+    "start": 212.781,
+    "end": 212.941,
+    "score": 0.303
+  },
+  {
+    "word": "14",
+    "start": 213.001,
+    "end": 213.501,
+    "score": 0.742
+  },
+  {
+    "word": "the",
+    "start": 214.381,
+    "end": 214.481,
+    "score": 0.879
+  },
+  {
+    "word": "holy",
+    "start": 214.521,
+    "end": 214.781,
+    "score": 0.757
+  },
+  {
+    "word": "spirit",
+    "start": 214.821,
+    "end": 215.181,
+    "score": 0.804
+  },
+  {
+    "word": "who",
+    "start": 215.741,
+    "end": 215.861,
+    "score": 0.838
+  },
+  {
+    "word": "is",
+    "start": 215.922,
+    "end": 216.002,
+    "score": 0.503
+  },
+  {
+    "word": "the",
+    "start": 216.042,
+    "end": 216.122,
+    "score": 0.883
+  },
+  {
+    "word": "only",
+    "start": 216.202,
+    "end": 216.382,
+    "score": 0.75
+  },
+  {
+    "word": "begotten",
+    "start": 216.422,
+    "end": 216.822,
+    "score": 0.926
+  },
+  {
+    "word": "god",
+    "start": 216.862,
+    "end": 217.102,
+    "score": 0.915
+  },
+  {
+    "word": "was",
+    "start": 217.782,
+    "end": 217.902,
+    "score": 0.951
+  },
+  {
+    "word": "begotten",
+    "start": 217.962,
+    "end": 218.402,
+    "score": 0.882
+  },
+  {
+    "word": "as",
+    "start": 218.622,
+    "end": 218.702,
+    "score": 0.832
+  },
+  {
+    "word": "the",
+    "start": 218.742,
+    "end": 218.842,
+    "score": 0.735
+  },
+  {
+    "word": "very",
+    "start": 218.882,
+    "end": 219.102,
+    "score": 0.791
+  },
+  {
+    "word": "beginning",
+    "start": 219.162,
+    "end": 219.563,
+    "score": 0.762
+  },
+  {
+    "word": "of",
+    "start": 219.743,
+    "end": 219.803,
+    "score": 0.754
+  },
+  {
+    "word": "his",
+    "start": 219.863,
+    "end": 219.983,
+    "score": 0.668
+  },
+  {
+    "word": "Father's",
+    "start": 220.023,
+    "end": 220.383,
+    "score": 0.753
+  },
+  {
+    "word": "works.",
+    "start": 220.423,
+    "end": 220.743,
+    "score": 0.867
+  },
+  {
+    "word": "The",
+    "start": 222.043,
+    "end": 222.183,
+    "score": 0.7
+  },
+  {
+    "word": "Lord",
+    "start": 222.263,
+    "end": 222.603,
+    "score": 0.765
+  },
+  {
+    "word": "created",
+    "start": 222.663,
+    "end": 223.144,
+    "score": 0.765
+  },
+  {
+    "word": "me",
+    "start": 223.204,
+    "end": 223.404,
+    "score": 0.788
+  },
+  {
+    "word": "at",
+    "start": 223.664,
+    "end": 223.724,
+    "score": 0.933
+  },
+  {
+    "word": "the",
+    "start": 223.784,
+    "end": 223.884,
+    "score": 0.828
+  },
+  {
+    "word": "beginning",
+    "start": 223.924,
+    "end": 224.404,
+    "score": 0.713
+  },
+  {
+    "word": "of",
+    "start": 224.644,
+    "end": 224.724,
+    "score": 0.833
+  },
+  {
+    "word": "his",
+    "start": 224.784,
+    "end": 224.904,
+    "score": 0.871
+  },
+  {
+    "word": "way.",
+    "start": 224.984,
+    "end": 225.244,
+    "score": 0.932
+  },
+  {
+    "word": "I",
+    "start": 226.164,
+    "end": 226.224,
+    "score": 0.676
+  },
+  {
+    "word": "was",
+    "start": 226.304,
+    "end": 226.444,
+    "score": 0.778
+  },
+  {
+    "word": "brought",
+    "start": 226.504,
+    "end": 226.745,
+    "score": 0.802
+  },
+  {
+    "word": "forth.",
+    "start": 226.825,
+    "end": 227.165,
+    "score": 0.834
+  },
+  {
+    "word": "Proverbs",
+    "start": 228.345,
+    "end": 230.326,
+    "score": 0.822
+  },
+  {
+    "word": "8.22-25",
+    "start": 230.346,
+    "end": 231.906,
+    "score": 0.808
+  },
+  {
+    "word": "He",
+    "start": 232.966,
+    "end": 233.066,
+    "score": 0.988
+  },
+  {
+    "word": "was",
+    "start": 233.126,
+    "end": 233.246,
+    "score": 0.724
+  },
+  {
+    "word": "not",
+    "start": 233.286,
+    "end": 233.446,
+    "score": 0.798
+  },
+  {
+    "word": "created",
+    "start": 233.526,
+    "end": 234.007,
+    "score": 0.856
+  },
+  {
+    "word": "among",
+    "start": 234.067,
+    "end": 234.347,
+    "score": 0.757
+  },
+  {
+    "word": "the",
+    "start": 234.387,
+    "end": 234.467,
+    "score": 0.844
+  },
+  {
+    "word": "rest",
+    "start": 234.547,
+    "end": 234.827,
+    "score": 0.909
+  },
+  {
+    "word": "of",
+    "start": 234.887,
+    "end": 234.947,
+    "score": 0.867
+  },
+  {
+    "word": "creation.",
+    "start": 235.027,
+    "end": 235.587,
+    "score": 0.866
+  },
+  {
+    "word": "He",
+    "start": 236.287,
+    "end": 236.367,
+    "score": 0.754
+  },
+  {
+    "word": "was",
+    "start": 236.427,
+    "end": 236.547,
+    "score": 0.778
+  },
+  {
+    "word": "the",
+    "start": 236.587,
+    "end": 236.667,
+    "score": 0.977
+  },
+  {
+    "word": "first",
+    "start": 236.727,
+    "end": 236.987,
+    "score": 0.717
+  },
+  {
+    "word": "act",
+    "start": 237.147,
+    "end": 237.327,
+    "score": 0.796
+  },
+  {
+    "word": "of",
+    "start": 237.427,
+    "end": 237.508,
+    "score": 0.832
+  },
+  {
+    "word": "the",
+    "start": 237.548,
+    "end": 237.628,
+    "score": 0.833
+  },
+  {
+    "word": "uncreated",
+    "start": 237.728,
+    "end": 238.248,
+    "score": 0.853
+  },
+  {
+    "word": "God.",
+    "start": 238.288,
+    "end": 238.648,
+    "score": 0.995
+  },
+  {
+    "word": "the",
+    "start": 239.348,
+    "end": 239.468,
+    "score": 0.739
+  },
+  {
+    "word": "only",
+    "start": 239.588,
+    "end": 239.768,
+    "score": 0.91
+  },
+  {
+    "word": "one",
+    "start": 239.889,
+    "end": 240.009,
+    "score": 0.807
+  },
+  {
+    "word": "begotten",
+    "start": 240.049,
+    "end": 240.529,
+    "score": 0.936
+  },
+  {
+    "word": "as",
+    "start": 240.629,
+    "end": 240.729,
+    "score": 0.742
+  },
+  {
+    "word": "a",
+    "start": 240.789,
+    "end": 240.809,
+    "score": 0.996
+  },
+  {
+    "word": "life-giving",
+    "start": 240.869,
+    "end": 241.45,
+    "score": 0.855
+  },
+  {
+    "word": "spirit",
+    "start": 241.51,
+    "end": 241.89,
+    "score": 0.843
+  },
+  {
+    "word": "of",
+    "start": 241.93,
+    "end": 241.99,
+    "score": 0.756
+  },
+  {
+    "word": "the",
+    "start": 242.03,
+    "end": 242.131,
+    "score": 0.834
+  },
+  {
+    "word": "Father's",
+    "start": 242.171,
+    "end": 242.531,
+    "score": 0.823
+  },
+  {
+    "word": "kind,",
+    "start": 242.571,
+    "end": 242.951,
+    "score": 0.854
+  },
+  {
+    "word": "Jehovah",
+    "start": 243.652,
+    "end": 244.132,
+    "score": 0.834
+  },
+  {
+    "word": "brought",
+    "start": 244.172,
+    "end": 244.433,
+    "score": 0.707
+  },
+  {
+    "word": "forth",
+    "start": 244.513,
+    "end": 244.793,
+    "score": 0.718
+  },
+  {
+    "word": "from",
+    "start": 244.833,
+    "end": 244.993,
+    "score": 0.834
+  },
+  {
+    "word": "Jehovah.",
+    "start": 245.033,
+    "end": 245.554,
+    "score": 0.834
+  },
+  {
+    "word": "From",
+    "start": 246.534,
+    "end": 246.695,
+    "score": 0.776
+  },
+  {
+    "word": "the",
+    "start": 246.735,
+    "end": 246.835,
+    "score": 0.781
+  },
+  {
+    "word": "moment",
+    "start": 246.915,
+    "end": 247.255,
+    "score": 0.736
+  },
+  {
+    "word": "of",
+    "start": 247.335,
+    "end": 247.395,
+    "score": 0.756
+  },
+  {
+    "word": "his",
+    "start": 247.455,
+    "end": 247.595,
+    "score": 0.683
+  },
+  {
+    "word": "begetting,",
+    "start": 247.635,
+    "end": 248.116,
+    "score": 0.854
+  },
+  {
+    "word": "he",
+    "start": 248.696,
+    "end": 248.816,
+    "score": 0.641
+  },
+  {
+    "word": "possessed",
+    "start": 248.897,
+    "end": 249.357,
+    "score": 0.838
+  },
+  {
+    "word": "the",
+    "start": 249.397,
+    "end": 249.497,
+    "score": 0.834
+  },
+  {
+    "word": "Father's",
+    "start": 249.537,
+    "end": 249.897,
+    "score": 0.904
+  },
+  {
+    "word": "divine",
+    "start": 249.957,
+    "end": 250.318,
+    "score": 0.85
+  },
+  {
+    "word": "nature,",
+    "start": 250.378,
+    "end": 250.738,
+    "score": 0.883
+  },
+  {
+    "word": "self-existing,",
+    "start": 251.579,
+    "end": 252.44,
+    "score": 0.839
+  },
+  {
+    "word": "life-giving,",
+    "start": 253.04,
+    "end": 253.701,
+    "score": 0.872
+  },
+  {
+    "word": "and",
+    "start": 254.361,
+    "end": 254.461,
+    "score": 0.683
+  },
+  {
+    "word": "from",
+    "start": 254.501,
+    "end": 254.682,
+    "score": 0.629
+  },
+  {
+    "word": "that",
+    "start": 254.722,
+    "end": 254.882,
+    "score": 0.796
+  },
+  {
+    "word": "moment,",
+    "start": 254.962,
+    "end": 255.302,
+    "score": 0.84
+  },
+  {
+    "word": "eternal.",
+    "start": 255.763,
+    "end": 256.183,
+    "score": 0.833
+  },
+  {
+    "word": "For",
+    "start": 257.264,
+    "end": 257.424,
+    "score": 0.827
+  },
+  {
+    "word": "as",
+    "start": 257.544,
+    "end": 257.624,
+    "score": 0.796
+  },
+  {
+    "word": "the",
+    "start": 257.684,
+    "end": 257.784,
+    "score": 0.831
+  },
+  {
+    "word": "Father",
+    "start": 257.824,
+    "end": 258.165,
+    "score": 0.822
+  },
+  {
+    "word": "has",
+    "start": 258.225,
+    "end": 258.385,
+    "score": 0.731
+  },
+  {
+    "word": "life",
+    "start": 258.465,
+    "end": 258.705,
+    "score": 0.828
+  },
+  {
+    "word": "in",
+    "start": 258.905,
+    "end": 258.985,
+    "score": 0.869
+  },
+  {
+    "word": "himself,",
+    "start": 259.046,
+    "end": 259.506,
+    "score": 0.855
+  },
+  {
+    "word": "so",
+    "start": 260.227,
+    "end": 260.367,
+    "score": 0.814
+  },
+  {
+    "word": "he",
+    "start": 260.427,
+    "end": 260.527,
+    "score": 0.627
+  },
+  {
+    "word": "has",
+    "start": 260.567,
+    "end": 260.707,
+    "score": 0.779
+  },
+  {
+    "word": "granted",
+    "start": 260.747,
+    "end": 261.127,
+    "score": 0.753
+  },
+  {
+    "word": "the",
+    "start": 261.187,
+    "end": 261.267,
+    "score": 0.965
+  },
+  {
+    "word": "Son",
+    "start": 261.328,
+    "end": 261.588,
+    "score": 0.877
+  },
+  {
+    "word": "to",
+    "start": 261.648,
+    "end": 261.748,
+    "score": 0.659
+  },
+  {
+    "word": "have",
+    "start": 261.788,
+    "end": 261.968,
+    "score": 0.723
+  },
+  {
+    "word": "life",
+    "start": 262.048,
+    "end": 262.288,
+    "score": 0.776
+  },
+  {
+    "word": "in",
+    "start": 262.529,
+    "end": 262.609,
+    "score": 0.889
+  },
+  {
+    "word": "himself.",
+    "start": 262.669,
+    "end": 263.149,
+    "score": 0.898
+  },
+  {
+    "word": "John",
+    "start": 264.03,
+    "end": 264.29,
+    "score": 0.809
+  },
+  {
+    "word": "5.26",
+    "start": 264.31,
+    "end": 264.57,
+    "score": 0.91
+  },
+  {
+    "word": "This",
+    "start": 266.932,
+    "end": 267.112,
+    "score": 0.798
+  },
+  {
+    "word": "Son,",
+    "start": 267.172,
+    "end": 267.513,
+    "score": 0.845
+  },
+  {
+    "word": "the",
+    "start": 268.013,
+    "end": 268.113,
+    "score": 0.806
+  },
+  {
+    "word": "only",
+    "start": 268.213,
+    "end": 268.373,
+    "score": 0.888
+  },
+  {
+    "word": "begotten",
+    "start": 268.433,
+    "end": 268.893,
+    "score": 0.942
+  },
+  {
+    "word": "Jehovah,",
+    "start": 268.933,
+    "end": 269.474,
+    "score": 0.924
+  },
+  {
+    "word": "never",
+    "start": 270.034,
+    "end": 270.294,
+    "score": 0.721
+  },
+  {
+    "word": "ceased",
+    "start": 270.374,
+    "end": 270.674,
+    "score": 0.85
+  },
+  {
+    "word": "being",
+    "start": 270.754,
+    "end": 271.055,
+    "score": 0.733
+  },
+  {
+    "word": "who",
+    "start": 271.095,
+    "end": 271.255,
+    "score": 0.611
+  },
+  {
+    "word": "He",
+    "start": 271.295,
+    "end": 271.395,
+    "score": 0.634
+  },
+  {
+    "word": "was.",
+    "start": 271.455,
+    "end": 271.755,
+    "score": 0.861
+  },
+  {
+    "word": "Jesus",
+    "start": 272.936,
+    "end": 273.316,
+    "score": 0.783
+  },
+  {
+    "word": "Christ",
+    "start": 273.376,
+    "end": 273.756,
+    "score": 0.818
+  },
+  {
+    "word": "is",
+    "start": 273.856,
+    "end": 273.936,
+    "score": 0.674
+  },
+  {
+    "word": "the",
+    "start": 273.996,
+    "end": 274.096,
+    "score": 0.833
+  },
+  {
+    "word": "same,",
+    "start": 274.136,
+    "end": 274.496,
+    "score": 0.81
+  },
+  {
+    "word": "yesterday,",
+    "start": 274.997,
+    "end": 275.597,
+    "score": 0.829
+  },
+  {
+    "word": "today,",
+    "start": 276.017,
+    "end": 276.397,
+    "score": 0.773
+  },
+  {
+    "word": "and",
+    "start": 276.678,
+    "end": 276.758,
+    "score": 0.841
+  },
+  {
+    "word": "forever.",
+    "start": 276.838,
+    "end": 277.278,
+    "score": 0.893
+  },
+  {
+    "word": "Hebrews",
+    "start": 278.338,
+    "end": 278.719,
+    "score": 0.724
+  },
+  {
+    "word": "13.8",
+    "start": 278.759,
+    "end": 279.279,
+    "score": 0.779
+  },
+  {
+    "word": "His",
+    "start": 279.519,
+    "end": 280.72,
+    "score": 0.703
+  },
+  {
+    "word": "incarnation",
+    "start": 280.78,
+    "end": 281.42,
+    "score": 0.818
+  },
+  {
+    "word": "was",
+    "start": 281.46,
+    "end": 281.6,
+    "score": 0.748
+  },
+  {
+    "word": "a",
+    "start": 281.64,
+    "end": 281.68,
+    "score": 0.94
+  },
+  {
+    "word": "veil,",
+    "start": 281.72,
+    "end": 282.04,
+    "score": 0.889
+  },
+  {
+    "word": "not",
+    "start": 282.621,
+    "end": 282.781,
+    "score": 0.752
+  },
+  {
+    "word": "a",
+    "start": 282.821,
+    "end": 282.861,
+    "score": 0.5
+  },
+  {
+    "word": "transformation",
+    "start": 282.901,
+    "end": 283.701,
+    "score": 0.891
+  },
+  {
+    "word": "of",
+    "start": 283.741,
+    "end": 283.821,
+    "score": 0.726
+  },
+  {
+    "word": "intrinsic",
+    "start": 283.881,
+    "end": 284.322,
+    "score": 0.791
+  },
+  {
+    "word": "nature.",
+    "start": 284.382,
+    "end": 284.742,
+    "score": 0.812
+  },
+  {
+    "word": "Even",
+    "start": 285.662,
+    "end": 285.842,
+    "score": 0.746
+  },
+  {
+    "word": "in",
+    "start": 285.882,
+    "end": 285.942,
+    "score": 0.75
+  },
+  {
+    "word": "the",
+    "start": 285.982,
+    "end": 286.043,
+    "score": 0.999
+  },
+  {
+    "word": "flesh,",
+    "start": 286.103,
+    "end": 286.463,
+    "score": 0.799
+  },
+  {
+    "word": "He",
+    "start": 287.023,
+    "end": 287.103,
+    "score": 0.971
+  },
+  {
+    "word": "was",
+    "start": 287.163,
+    "end": 287.283,
+    "score": 0.778
+  },
+  {
+    "word": "the",
+    "start": 287.323,
+    "end": 287.403,
+    "score": 0.839
+  },
+  {
+    "word": "begotten",
+    "start": 287.443,
+    "end": 287.924,
+    "score": 0.9
+  },
+  {
+    "word": "life-giving",
+    "start": 288.004,
+    "end": 288.564,
+    "score": 0.862
+  },
+  {
+    "word": "Spirit.",
+    "start": 288.624,
+    "end": 289.004,
+    "score": 0.854
+  },
+  {
+    "word": "It",
+    "start": 290.145,
+    "end": 290.225,
+    "score": 0.693
+  },
+  {
+    "word": "is",
+    "start": 290.285,
+    "end": 290.365,
+    "score": 0.798
+  },
+  {
+    "word": "the",
+    "start": 290.405,
+    "end": 290.505,
+    "score": 0.729
+  },
+  {
+    "word": "Spirit",
+    "start": 290.545,
+    "end": 290.945,
+    "score": 0.825
+  },
+  {
+    "word": "who",
+    "start": 291.005,
+    "end": 291.165,
+    "score": 0.699
+  },
+  {
+    "word": "gives",
+    "start": 291.225,
+    "end": 291.525,
+    "score": 0.701
+  },
+  {
+    "word": "life.",
+    "start": 291.626,
+    "end": 291.886,
+    "score": 0.874
+  },
+  {
+    "word": "The",
+    "start": 292.506,
+    "end": 292.626,
+    "score": 0.738
+  },
+  {
+    "word": "flesh",
+    "start": 292.706,
+    "end": 293.066,
+    "score": 0.732
+  },
+  {
+    "word": "profits",
+    "start": 293.206,
+    "end": 293.747,
+    "score": 0.777
+  },
+  {
+    "word": "nothing.",
+    "start": 293.867,
+    "end": 294.247,
+    "score": 0.879
+  },
+  {
+    "word": "John",
+    "start": 294.887,
+    "end": 295.127,
+    "score": 0.79
+  },
+  {
+    "word": "6.63",
+    "start": 295.147,
+    "end": 295.347,
+    "score": 0.978
+  },
+  {
+    "word": "He",
+    "start": 297.898,
+    "end": 297.998,
+    "score": 0.832
+  },
+  {
+    "word": "laid",
+    "start": 298.038,
+    "end": 298.258,
+    "score": 0.557
+  },
+  {
+    "word": "down",
+    "start": 298.298,
+    "end": 298.518,
+    "score": 0.789
+  },
+  {
+    "word": "His",
+    "start": 298.558,
+    "end": 298.678,
+    "score": 0.794
+  },
+  {
+    "word": "flesh,",
+    "start": 298.718,
+    "end": 299.038,
+    "score": 0.989
+  },
+  {
+    "word": "and",
+    "start": 299.619,
+    "end": 299.719,
+    "score": 0.819
+  },
+  {
+    "word": "by",
+    "start": 299.759,
+    "end": 299.919,
+    "score": 0.842
+  },
+  {
+    "word": "physical",
+    "start": 299.979,
+    "end": 300.359,
+    "score": 0.873
+  },
+  {
+    "word": "death,",
+    "start": 300.399,
+    "end": 300.679,
+    "score": 0.949
+  },
+  {
+    "word": "He",
+    "start": 301.099,
+    "end": 301.199,
+    "score": 0.836
+  },
+  {
+    "word": "conquered",
+    "start": 301.279,
+    "end": 301.699,
+    "score": 0.735
+  },
+  {
+    "word": "death",
+    "start": 301.739,
+    "end": 301.979,
+    "score": 0.976
+  },
+  {
+    "word": "as",
+    "start": 302.339,
+    "end": 302.419,
+    "score": 0.833
+  },
+  {
+    "word": "the",
+    "start": 302.459,
+    "end": 302.559,
+    "score": 0.881
+  },
+  {
+    "word": "very",
+    "start": 302.599,
+    "end": 302.88,
+    "score": 0.898
+  },
+  {
+    "word": "Spirit",
+    "start": 302.98,
+    "end": 303.34,
+    "score": 0.702
+  },
+  {
+    "word": "of",
+    "start": 303.46,
+    "end": 303.54,
+    "score": 0.83
+  },
+  {
+    "word": "life.",
+    "start": 303.62,
+    "end": 303.86,
+    "score": 0.998
+  },
+  {
+    "word": "After",
+    "start": 304.7,
+    "end": 304.88,
+    "score": 0.893
+  },
+  {
+    "word": "conquering",
+    "start": 304.96,
+    "end": 305.4,
+    "score": 0.834
+  },
+  {
+    "word": "death",
+    "start": 305.44,
+    "end": 305.68,
+    "score": 0.946
+  },
+  {
+    "word": "and",
+    "start": 305.981,
+    "end": 306.061,
+    "score": 0.859
+  },
+  {
+    "word": "rising",
+    "start": 306.121,
+    "end": 306.481,
+    "score": 0.976
+  },
+  {
+    "word": "again,",
+    "start": 306.521,
+    "end": 306.801,
+    "score": 0.87
+  },
+  {
+    "word": "He",
+    "start": 307.261,
+    "end": 307.361,
+    "score": 0.866
+  },
+  {
+    "word": "took",
+    "start": 307.421,
+    "end": 307.621,
+    "score": 0.77
+  },
+  {
+    "word": "His",
+    "start": 307.661,
+    "end": 307.781,
+    "score": 0.944
+  },
+  {
+    "word": "seat",
+    "start": 307.821,
+    "end": 308.061,
+    "score": 0.79
+  },
+  {
+    "word": "in",
+    "start": 308.241,
+    "end": 308.301,
+    "score": 0.999
+  },
+  {
+    "word": "glory,",
+    "start": 308.361,
+    "end": 308.761,
+    "score": 0.841
+  },
+  {
+    "word": "the",
+    "start": 309.282,
+    "end": 309.382,
+    "score": 0.809
+  },
+  {
+    "word": "Son",
+    "start": 309.422,
+    "end": 309.602,
+    "score": 0.907
+  },
+  {
+    "word": "of",
+    "start": 309.642,
+    "end": 309.702,
+    "score": 0.751
+  },
+  {
+    "word": "Man",
+    "start": 309.742,
+    "end": 310.022,
+    "score": 0.817
+  },
+  {
+    "word": "enthroned",
+    "start": 310.242,
+    "end": 310.742,
+    "score": 0.887
+  },
+  {
+    "word": "in",
+    "start": 310.762,
+    "end": 310.802,
+    "score": 0.0
+  },
+  {
+    "word": "the",
+    "start": 311.022,
+    "end": 311.102,
+    "score": 0.834
+  },
+  {
+    "word": "midst",
+    "start": 311.142,
+    "end": 311.422,
+    "score": 0.785
+  },
+  {
+    "word": "of",
+    "start": 311.662,
+    "end": 311.742,
+    "score": 0.838
+  },
+  {
+    "word": "the",
+    "start": 311.802,
+    "end": 311.862,
+    "score": 1.0
+  },
+  {
+    "word": "gods,",
+    "start": 311.902,
+    "end": 312.303,
+    "score": 0.978
+  },
+  {
+    "word": "now",
+    "start": 312.903,
+    "end": 313.083,
+    "score": 0.892
+  },
+  {
+    "word": "holding",
+    "start": 313.163,
+    "end": 313.523,
+    "score": 0.841
+  },
+  {
+    "word": "all",
+    "start": 313.683,
+    "end": 313.843,
+    "score": 0.725
+  },
+  {
+    "word": "authority.",
+    "start": 313.943,
+    "end": 314.443,
+    "score": 0.883
+  },
+  {
+    "word": "He",
+    "start": 315.464,
+    "end": 315.624,
+    "score": 0.898
+  },
+  {
+    "word": "channels,",
+    "start": 315.724,
+    "end": 316.204,
+    "score": 0.868
+  },
+  {
+    "word": "pempo,",
+    "start": 316.924,
+    "end": 317.404,
+    "score": 0.917
+  },
+  {
+    "word": "or",
+    "start": 318.164,
+    "end": 318.264,
+    "score": 0.786
+  },
+  {
+    "word": "to",
+    "start": 318.324,
+    "end": 318.444,
+    "score": 0.998
+  },
+  {
+    "word": "send,",
+    "start": 318.524,
+    "end": 318.885,
+    "score": 0.922
+  },
+  {
+    "word": "His",
+    "start": 319.605,
+    "end": 319.745,
+    "score": 0.856
+  },
+  {
+    "word": "Spirit",
+    "start": 319.825,
+    "end": 320.225,
+    "score": 0.778
+  },
+  {
+    "word": "into",
+    "start": 320.385,
+    "end": 320.645,
+    "score": 0.812
+  },
+  {
+    "word": "our",
+    "start": 320.765,
+    "end": 320.865,
+    "score": 0.992
+  },
+  {
+    "word": "hearts,",
+    "start": 320.925,
+    "end": 321.245,
+    "score": 0.779
+  },
+  {
+    "word": "just",
+    "start": 321.966,
+    "end": 322.246,
+    "score": 0.9
+  },
+  {
+    "word": "as",
+    "start": 322.346,
+    "end": 322.426,
+    "score": 0.838
+  },
+  {
+    "word": "He",
+    "start": 322.466,
+    "end": 322.586,
+    "score": 0.737
+  },
+  {
+    "word": "promised.",
+    "start": 322.646,
+    "end": 323.146,
+    "score": 0.927
+  },
+  {
+    "word": "John",
+    "start": 324.146,
+    "end": 324.406,
+    "score": 0.812
+  },
+  {
+    "word": "14,",
+    "start": 324.426,
+    "end": 324.586,
+    "score": 0.964
+  },
+  {
+    "word": "17",
+    "start": 324.606,
+    "end": 324.646,
+    "score": 0.786
+  },
+  {
+    "word": "It",
+    "start": 327.988,
+    "end": 328.048,
+    "score": 0.756
+  },
+  {
+    "word": "is",
+    "start": 328.108,
+    "end": 328.188,
+    "score": 0.506
+  },
+  {
+    "word": "not",
+    "start": 328.248,
+    "end": 328.448,
+    "score": 0.727
+  },
+  {
+    "word": "a",
+    "start": 328.488,
+    "end": 328.508,
+    "score": 1.0
+  },
+  {
+    "word": "substitute",
+    "start": 328.568,
+    "end": 329.129,
+    "score": 0.81
+  },
+  {
+    "word": "spirit.",
+    "start": 329.189,
+    "end": 329.629,
+    "score": 0.82
+  },
+  {
+    "word": "It",
+    "start": 330.469,
+    "end": 330.529,
+    "score": 0.992
+  },
+  {
+    "word": "is",
+    "start": 330.61,
+    "end": 330.67,
+    "score": 0.914
+  },
+  {
+    "word": "the",
+    "start": 330.73,
+    "end": 330.83,
+    "score": 0.882
+  },
+  {
+    "word": "very",
+    "start": 330.87,
+    "end": 331.17,
+    "score": 0.84
+  },
+  {
+    "word": "same",
+    "start": 331.27,
+    "end": 331.53,
+    "score": 0.827
+  },
+  {
+    "word": "Spirit,",
+    "start": 331.63,
+    "end": 332.05,
+    "score": 0.834
+  },
+  {
+    "word": "the",
+    "start": 332.651,
+    "end": 332.771,
+    "score": 0.616
+  },
+  {
+    "word": "same",
+    "start": 332.831,
+    "end": 333.091,
+    "score": 0.7
+  },
+  {
+    "word": "Son,",
+    "start": 333.191,
+    "end": 333.511,
+    "score": 0.859
+  },
+  {
+    "word": "the",
+    "start": 334.252,
+    "end": 334.352,
+    "score": 0.998
+  },
+  {
+    "word": "One",
+    "start": 334.452,
+    "end": 334.552,
+    "score": 0.671
+  },
+  {
+    "word": "who",
+    "start": 334.572,
+    "end": 334.692,
+    "score": 0.833
+  },
+  {
+    "word": "came",
+    "start": 334.752,
+    "end": 335.052,
+    "score": 0.748
+  },
+  {
+    "word": "from",
+    "start": 335.112,
+    "end": 335.253,
+    "score": 0.766
+  },
+  {
+    "word": "the",
+    "start": 335.293,
+    "end": 335.373,
+    "score": 0.948
+  },
+  {
+    "word": "Father",
+    "start": 335.433,
+    "end": 335.813,
+    "score": 0.762
+  },
+  {
+    "word": "and",
+    "start": 336.493,
+    "end": 336.593,
+    "score": 0.82
+  },
+  {
+    "word": "now",
+    "start": 336.653,
+    "end": 336.854,
+    "score": 0.842
+  },
+  {
+    "word": "returns",
+    "start": 336.914,
+    "end": 337.454,
+    "score": 0.896
+  },
+  {
+    "word": "to",
+    "start": 337.974,
+    "end": 338.094,
+    "score": 1.0
+  },
+  {
+    "word": "bring",
+    "start": 338.154,
+    "end": 338.415,
+    "score": 0.647
+  },
+  {
+    "word": "us",
+    "start": 338.475,
+    "end": 338.575,
+    "score": 0.664
+  },
+  {
+    "word": "back",
+    "start": 338.655,
+    "end": 338.875,
+    "score": 0.904
+  },
+  {
+    "word": "to",
+    "start": 338.935,
+    "end": 339.035,
+    "score": 0.668
+  },
+  {
+    "word": "Him.",
+    "start": 339.075,
+    "end": 339.275,
+    "score": 0.816
+  },
+  {
+    "word": "The",
+    "start": 340.396,
+    "end": 340.496,
+    "score": 0.831
+  },
+  {
+    "word": "Holy",
+    "start": 340.556,
+    "end": 340.816,
+    "score": 0.871
+  },
+  {
+    "word": "Spirit",
+    "start": 340.856,
+    "end": 341.176,
+    "score": 0.787
+  },
+  {
+    "word": "alone",
+    "start": 341.236,
+    "end": 341.577,
+    "score": 0.807
+  },
+  {
+    "word": "makes",
+    "start": 341.637,
+    "end": 341.877,
+    "score": 0.774
+  },
+  {
+    "word": "us",
+    "start": 341.977,
+    "end": 342.057,
+    "score": 0.672
+  },
+  {
+    "word": "children",
+    "start": 342.137,
+    "end": 342.517,
+    "score": 0.791
+  },
+  {
+    "word": "of",
+    "start": 342.557,
+    "end": 342.617,
+    "score": 0.75
+  },
+  {
+    "word": "the",
+    "start": 342.657,
+    "end": 342.757,
+    "score": 0.829
+  },
+  {
+    "word": "Father",
+    "start": 342.797,
+    "end": 343.178,
+    "score": 0.753
+  },
+  {
+    "word": "because",
+    "start": 343.758,
+    "end": 344.058,
+    "score": 0.754
+  },
+  {
+    "word": "He",
+    "start": 344.118,
+    "end": 344.238,
+    "score": 0.996
+  },
+  {
+    "word": "alone",
+    "start": 344.338,
+    "end": 344.679,
+    "score": 0.8
+  },
+  {
+    "word": "is",
+    "start": 344.759,
+    "end": 344.839,
+    "score": 0.77
+  },
+  {
+    "word": "the",
+    "start": 344.879,
+    "end": 344.979,
+    "score": 0.757
+  },
+  {
+    "word": "Father's",
+    "start": 345.019,
+    "end": 345.439,
+    "score": 0.794
+  },
+  {
+    "word": "descendant.",
+    "start": 345.499,
+    "end": 346.039,
+    "score": 0.907
+  },
+  {
+    "word": "The",
+    "start": 347.0,
+    "end": 347.1,
+    "score": 0.996
+  },
+  {
+    "word": "Spirit",
+    "start": 347.16,
+    "end": 347.54,
+    "score": 0.89
+  },
+  {
+    "word": "within",
+    "start": 347.6,
+    "end": 347.92,
+    "score": 0.762
+  },
+  {
+    "word": "us",
+    "start": 348.041,
+    "end": 348.141,
+    "score": 0.436
+  },
+  {
+    "word": "is",
+    "start": 348.921,
+    "end": 349.001,
+    "score": 0.668
+  },
+  {
+    "word": "not",
+    "start": 349.061,
+    "end": 349.241,
+    "score": 0.714
+  },
+  {
+    "word": "merely",
+    "start": 349.321,
+    "end": 349.721,
+    "score": 0.82
+  },
+  {
+    "word": "a",
+    "start": 349.921,
+    "end": 349.981,
+    "score": 0.684
+  },
+  {
+    "word": "witness",
+    "start": 350.061,
+    "end": 350.502,
+    "score": 0.826
+  },
+  {
+    "word": "to",
+    "start": 350.942,
+    "end": 351.102,
+    "score": 0.73
+  },
+  {
+    "word": "our",
+    "start": 351.182,
+    "end": 351.302,
+    "score": 0.731
+  },
+  {
+    "word": "adoption,",
+    "start": 351.342,
+    "end": 351.882,
+    "score": 0.887
+  },
+  {
+    "word": "but",
+    "start": 352.583,
+    "end": 352.703,
+    "score": 0.834
+  },
+  {
+    "word": "the",
+    "start": 352.743,
+    "end": 352.843,
+    "score": 0.833
+  },
+  {
+    "word": "presence",
+    "start": 352.923,
+    "end": 353.343,
+    "score": 0.796
+  },
+  {
+    "word": "of",
+    "start": 353.403,
+    "end": 353.463,
+    "score": 0.76
+  },
+  {
+    "word": "the",
+    "start": 353.503,
+    "end": 353.583,
+    "score": 0.899
+  },
+  {
+    "word": "Firstborn",
+    "start": 353.643,
+    "end": 354.223,
+    "score": 0.816
+  },
+  {
+    "word": "Himself,",
+    "start": 354.263,
+    "end": 354.764,
+    "score": 0.836
+  },
+  {
+    "word": "the",
+    "start": 355.704,
+    "end": 355.824,
+    "score": 0.993
+  },
+  {
+    "word": "One",
+    "start": 356.004,
+    "end": 356.144,
+    "score": 0.613
+  },
+  {
+    "word": "through",
+    "start": 356.204,
+    "end": 356.444,
+    "score": 0.761
+  },
+  {
+    "word": "whom",
+    "start": 356.484,
+    "end": 356.744,
+    "score": 0.637
+  },
+  {
+    "word": "we",
+    "start": 356.824,
+    "end": 356.945,
+    "score": 0.85
+  },
+  {
+    "word": "are",
+    "start": 357.025,
+    "end": 357.105,
+    "score": 0.883
+  },
+  {
+    "word": "made",
+    "start": 357.145,
+    "end": 357.385,
+    "score": 0.834
+  },
+  {
+    "word": "joint",
+    "start": 357.465,
+    "end": 357.785,
+    "score": 0.866
+  },
+  {
+    "word": "heirs",
+    "start": 357.905,
+    "end": 358.245,
+    "score": 0.701
+  },
+  {
+    "word": "and",
+    "start": 358.965,
+    "end": 359.045,
+    "score": 0.987
+  },
+  {
+    "word": "transformed",
+    "start": 359.106,
+    "end": 359.806,
+    "score": 0.872
+  },
+  {
+    "word": "into",
+    "start": 359.946,
+    "end": 360.186,
+    "score": 0.734
+  },
+  {
+    "word": "His",
+    "start": 360.246,
+    "end": 360.366,
+    "score": 0.724
+  },
+  {
+    "word": "likeness.",
+    "start": 360.426,
+    "end": 360.886,
+    "score": 0.889
+  },
+  {
+    "word": "Eternal",
+    "start": 361.987,
+    "end": 362.447,
+    "score": 0.721
+  },
+  {
+    "word": "life",
+    "start": 362.507,
+    "end": 362.787,
+    "score": 0.676
+  },
+  {
+    "word": "is",
+    "start": 363.307,
+    "end": 363.407,
+    "score": 0.745
+  },
+  {
+    "word": "not",
+    "start": 363.507,
+    "end": 363.748,
+    "score": 0.743
+  },
+  {
+    "word": "an",
+    "start": 363.888,
+    "end": 363.968,
+    "score": 0.836
+  },
+  {
+    "word": "external",
+    "start": 364.188,
+    "end": 364.728,
+    "score": 0.784
+  },
+  {
+    "word": "reward",
+    "start": 364.928,
+    "end": 365.428,
+    "score": 0.824
+  },
+  {
+    "word": "of",
+    "start": 365.468,
+    "end": 365.528,
+    "score": 0.858
+  },
+  {
+    "word": "belief.",
+    "start": 365.588,
+    "end": 366.009,
+    "score": 0.826
+  },
+  {
+    "word": "It",
+    "start": 366.949,
+    "end": 367.029,
+    "score": 0.824
+  },
+  {
+    "word": "is",
+    "start": 367.089,
+    "end": 367.169,
+    "score": 0.777
+  },
+  {
+    "word": "the",
+    "start": 367.209,
+    "end": 367.309,
+    "score": 0.959
+  },
+  {
+    "word": "inheritance",
+    "start": 367.369,
+    "end": 368.09,
+    "score": 0.879
+  },
+  {
+    "word": "of",
+    "start": 368.67,
+    "end": 368.73,
+    "score": 0.819
+  },
+  {
+    "word": "the",
+    "start": 368.79,
+    "end": 368.89,
+    "score": 0.831
+  },
+  {
+    "word": "same",
+    "start": 368.95,
+    "end": 369.29,
+    "score": 0.786
+  },
+  {
+    "word": "divine",
+    "start": 369.39,
+    "end": 369.85,
+    "score": 0.71
+  },
+  {
+    "word": "nature",
+    "start": 369.93,
+    "end": 370.311,
+    "score": 0.848
+  },
+  {
+    "word": "from",
+    "start": 370.871,
+    "end": 371.051,
+    "score": 0.908
+  },
+  {
+    "word": "which",
+    "start": 371.111,
+    "end": 371.331,
+    "score": 0.721
+  },
+  {
+    "word": "eternal",
+    "start": 371.571,
+    "end": 372.011,
+    "score": 0.793
+  },
+  {
+    "word": "life",
+    "start": 372.271,
+    "end": 372.552,
+    "score": 0.72
+  },
+  {
+    "word": "flows.",
+    "start": 372.952,
+    "end": 373.332,
+    "score": 0.981
+  },
+  {
+    "word": "The",
+    "start": 375.003,
+    "end": 375.103,
+    "score": 0.978
+  },
+  {
+    "word": "indwelling",
+    "start": 375.163,
+    "end": 375.644,
+    "score": 0.892
+  },
+  {
+    "word": "Spirit",
+    "start": 375.704,
+    "end": 376.024,
+    "score": 0.803
+  },
+  {
+    "word": "of",
+    "start": 376.064,
+    "end": 376.144,
+    "score": 0.828
+  },
+  {
+    "word": "the",
+    "start": 376.184,
+    "end": 376.264,
+    "score": 0.905
+  },
+  {
+    "word": "Son",
+    "start": 376.324,
+    "end": 376.604,
+    "score": 0.78
+  },
+  {
+    "word": "testifies",
+    "start": 377.025,
+    "end": 377.625,
+    "score": 0.869
+  },
+  {
+    "word": "that",
+    "start": 377.865,
+    "end": 378.005,
+    "score": 0.857
+  },
+  {
+    "word": "we",
+    "start": 378.045,
+    "end": 378.186,
+    "score": 0.841
+  },
+  {
+    "word": "are",
+    "start": 378.246,
+    "end": 378.326,
+    "score": 0.974
+  },
+  {
+    "word": "born",
+    "start": 378.366,
+    "end": 378.666,
+    "score": 0.849
+  },
+  {
+    "word": "of",
+    "start": 378.806,
+    "end": 378.886,
+    "score": 0.717
+  },
+  {
+    "word": "God.",
+    "start": 378.926,
+    "end": 379.246,
+    "score": 0.929
+  },
+  {
+    "word": "His",
+    "start": 380.107,
+    "end": 380.227,
+    "score": 0.723
+  },
+  {
+    "word": "voice,",
+    "start": 380.287,
+    "end": 380.607,
+    "score": 0.784
+  },
+  {
+    "word": "His",
+    "start": 381.048,
+    "end": 381.168,
+    "score": 0.722
+  },
+  {
+    "word": "presence,",
+    "start": 381.248,
+    "end": 381.648,
+    "score": 0.921
+  },
+  {
+    "word": "and",
+    "start": 382.149,
+    "end": 382.249,
+    "score": 0.684
+  },
+  {
+    "word": "His",
+    "start": 382.289,
+    "end": 382.409,
+    "score": 0.661
+  },
+  {
+    "word": "cry",
+    "start": 382.469,
+    "end": 382.729,
+    "score": 0.983
+  },
+  {
+    "word": "of",
+    "start": 382.789,
+    "end": 382.869,
+    "score": 0.725
+  },
+  {
+    "word": "Abba",
+    "start": 383.109,
+    "end": 383.37,
+    "score": 0.874
+  },
+  {
+    "word": "within",
+    "start": 383.75,
+    "end": 384.01,
+    "score": 0.858
+  },
+  {
+    "word": "us",
+    "start": 384.09,
+    "end": 384.19,
+    "score": 0.74
+  },
+  {
+    "word": "testify.",
+    "start": 384.29,
+    "end": 384.871,
+    "score": 0.89
+  },
+  {
+    "word": "The",
+    "start": 385.471,
+    "end": 385.591,
+    "score": 0.723
+  },
+  {
+    "word": "Holy",
+    "start": 385.631,
+    "end": 385.871,
+    "score": 0.949
+  },
+  {
+    "word": "Spirit",
+    "start": 385.932,
+    "end": 386.272,
+    "score": 0.741
+  },
+  {
+    "word": "is",
+    "start": 386.572,
+    "end": 386.652,
+    "score": 0.676
+  },
+  {
+    "word": "the",
+    "start": 386.692,
+    "end": 386.752,
+    "score": 1.0
+  },
+  {
+    "word": "Son",
+    "start": 386.792,
+    "end": 386.992,
+    "score": 0.755
+  },
+  {
+    "word": "of",
+    "start": 387.032,
+    "end": 387.092,
+    "score": 0.75
+  },
+  {
+    "word": "God.",
+    "start": 387.132,
+    "end": 387.433,
+    "score": 0.936
+  },
+  {
+    "word": "Genetic",
+    "start": 389.454,
+    "end": 389.955,
+    "score": 0.871
+  },
+  {
+    "word": "Key",
+    "start": 390.195,
+    "end": 390.495,
+    "score": 0.933
+  },
+  {
+    "word": "The",
+    "start": 392.917,
+    "end": 393.017,
+    "score": 0.85
+  },
+  {
+    "word": "Core",
+    "start": 393.057,
+    "end": 393.337,
+    "score": 0.829
+  },
+  {
+    "word": "Truth",
+    "start": 393.397,
+    "end": 393.678,
+    "score": 0.943
+  },
+  {
+    "word": "The",
+    "start": 395.202,
+    "end": 395.302,
+    "score": 0.829
+  },
+  {
+    "word": "Holy",
+    "start": 395.342,
+    "end": 395.582,
+    "score": 0.828
+  },
+  {
+    "word": "Spirit",
+    "start": 395.642,
+    "end": 396.023,
+    "score": 0.762
+  },
+  {
+    "word": "is",
+    "start": 396.163,
+    "end": 396.223,
+    "score": 0.982
+  },
+  {
+    "word": "not",
+    "start": 396.303,
+    "end": 396.503,
+    "score": 0.672
+  },
+  {
+    "word": "a",
+    "start": 396.623,
+    "end": 396.663,
+    "score": 0.51
+  },
+  {
+    "word": "person",
+    "start": 396.743,
+    "end": 397.203,
+    "score": 0.737
+  },
+  {
+    "word": "of",
+    "start": 397.363,
+    "end": 397.443,
+    "score": 0.833
+  },
+  {
+    "word": "the",
+    "start": 397.483,
+    "end": 397.563,
+    "score": 0.93
+  },
+  {
+    "word": "Godhead",
+    "start": 397.603,
+    "end": 398.124,
+    "score": 0.817
+  },
+  {
+    "word": "or",
+    "start": 398.804,
+    "end": 398.904,
+    "score": 0.485
+  },
+  {
+    "word": "a",
+    "start": 398.944,
+    "end": 398.984,
+    "score": 0.5
+  },
+  {
+    "word": "deputy",
+    "start": 399.024,
+    "end": 399.464,
+    "score": 0.957
+  },
+  {
+    "word": "sent",
+    "start": 399.545,
+    "end": 399.785,
+    "score": 0.757
+  },
+  {
+    "word": "to",
+    "start": 399.825,
+    "end": 399.925,
+    "score": 0.826
+  },
+  {
+    "word": "replace",
+    "start": 399.965,
+    "end": 400.365,
+    "score": 0.728
+  },
+  {
+    "word": "Jesus.",
+    "start": 400.425,
+    "end": 400.845,
+    "score": 0.828
+  },
+  {
+    "word": "The",
+    "start": 401.646,
+    "end": 401.746,
+    "score": 0.828
+  },
+  {
+    "word": "Holy",
+    "start": 401.806,
+    "end": 402.046,
+    "score": 0.728
+  },
+  {
+    "word": "Spirit",
+    "start": 402.086,
+    "end": 402.466,
+    "score": 0.759
+  },
+  {
+    "word": "is",
+    "start": 402.766,
+    "end": 402.846,
+    "score": 0.826
+  },
+  {
+    "word": "the",
+    "start": 402.886,
+    "end": 402.966,
+    "score": 0.834
+  },
+  {
+    "word": "Spirit",
+    "start": 403.006,
+    "end": 403.347,
+    "score": 0.629
+  },
+  {
+    "word": "of",
+    "start": 403.367,
+    "end": 403.447,
+    "score": 0.678
+  },
+  {
+    "word": "the",
+    "start": 403.487,
+    "end": 403.567,
+    "score": 0.899
+  },
+  {
+    "word": "Son.",
+    "start": 403.627,
+    "end": 403.907,
+    "score": 0.852
+  },
+  {
+    "word": "When",
+    "start": 404.888,
+    "end": 405.028,
+    "score": 0.902
+  },
+  {
+    "word": "we",
+    "start": 405.068,
+    "end": 405.168,
+    "score": 0.822
+  },
+  {
+    "word": "receive",
+    "start": 405.228,
+    "end": 405.588,
+    "score": 0.783
+  },
+  {
+    "word": "the",
+    "start": 405.628,
+    "end": 405.708,
+    "score": 0.835
+  },
+  {
+    "word": "Spirit,",
+    "start": 405.768,
+    "end": 406.168,
+    "score": 0.845
+  },
+  {
+    "word": "we",
+    "start": 406.569,
+    "end": 406.689,
+    "score": 0.849
+  },
+  {
+    "word": "are",
+    "start": 406.729,
+    "end": 406.829,
+    "score": 0.812
+  },
+  {
+    "word": "receiving",
+    "start": 406.869,
+    "end": 407.309,
+    "score": 0.819
+  },
+  {
+    "word": "the",
+    "start": 407.349,
+    "end": 407.449,
+    "score": 0.802
+  },
+  {
+    "word": "personal,",
+    "start": 407.489,
+    "end": 407.989,
+    "score": 0.86
+  },
+  {
+    "word": "indwelling",
+    "start": 408.49,
+    "end": 408.99,
+    "score": 0.902
+  },
+  {
+    "word": "presence",
+    "start": 409.07,
+    "end": 409.47,
+    "score": 0.845
+  },
+  {
+    "word": "of",
+    "start": 409.53,
+    "end": 409.59,
+    "score": 0.792
+  },
+  {
+    "word": "Jesus",
+    "start": 409.67,
+    "end": 409.97,
+    "score": 0.854
+  },
+  {
+    "word": "Christ",
+    "start": 410.01,
+    "end": 410.331,
+    "score": 0.784
+  },
+  {
+    "word": "Himself.",
+    "start": 410.371,
+    "end": 410.831,
+    "score": 0.838
+  },
+  {
+    "word": "Why",
+    "start": 413.152,
+    "end": 413.392,
+    "score": 0.833
+  },
+  {
+    "word": "this",
+    "start": 413.472,
+    "end": 413.693,
+    "score": 0.875
+  },
+  {
+    "word": "matters",
+    "start": 413.813,
+    "end": 414.193,
+    "score": 0.97
+  },
+  {
+    "word": "It",
+    "start": 416.704,
+    "end": 416.764,
+    "score": 0.764
+  },
+  {
+    "word": "changes",
+    "start": 416.844,
+    "end": 417.285,
+    "score": 0.86
+  },
+  {
+    "word": "our",
+    "start": 417.365,
+    "end": 417.465,
+    "score": 0.736
+  },
+  {
+    "word": "relationship",
+    "start": 417.505,
+    "end": 418.186,
+    "score": 0.766
+  },
+  {
+    "word": "with",
+    "start": 418.246,
+    "end": 418.366,
+    "score": 0.875
+  },
+  {
+    "word": "God",
+    "start": 418.426,
+    "end": 418.727,
+    "score": 0.883
+  },
+  {
+    "word": "from",
+    "start": 418.807,
+    "end": 418.967,
+    "score": 0.889
+  },
+  {
+    "word": "bureaucratic",
+    "start": 419.027,
+    "end": 419.748,
+    "score": 0.787
+  },
+  {
+    "word": "to",
+    "start": 420.108,
+    "end": 420.248,
+    "score": 0.834
+  },
+  {
+    "word": "intimate.",
+    "start": 420.349,
+    "end": 420.769,
+    "score": 0.906
+  },
+  {
+    "word": "We",
+    "start": 421.73,
+    "end": 421.83,
+    "score": 1.0
+  },
+  {
+    "word": "do",
+    "start": 421.87,
+    "end": 421.97,
+    "score": 1.0
+  },
+  {
+    "word": "not",
+    "start": 422.031,
+    "end": 422.171,
+    "score": 0.969
+  },
+  {
+    "word": "interact",
+    "start": 422.231,
+    "end": 422.731,
+    "score": 0.791
+  },
+  {
+    "word": "with",
+    "start": 423.452,
+    "end": 423.592,
+    "score": 0.799
+  },
+  {
+    "word": "a",
+    "start": 423.632,
+    "end": 423.673,
+    "score": 0.515
+  },
+  {
+    "word": "substitute.",
+    "start": 423.733,
+    "end": 424.353,
+    "score": 0.905
+  },
+  {
+    "word": "We",
+    "start": 425.014,
+    "end": 425.154,
+    "score": 0.805
+  },
+  {
+    "word": "commune",
+    "start": 425.214,
+    "end": 425.675,
+    "score": 0.794
+  },
+  {
+    "word": "with",
+    "start": 425.735,
+    "end": 425.855,
+    "score": 0.878
+  },
+  {
+    "word": "the",
+    "start": 425.895,
+    "end": 425.975,
+    "score": 0.832
+  },
+  {
+    "word": "Savior.",
+    "start": 426.035,
+    "end": 426.456,
+    "score": 0.792
+  },
+  {
+    "word": "The",
+    "start": 427.677,
+    "end": 427.777,
+    "score": 0.999
+  },
+  {
+    "word": "one",
+    "start": 427.898,
+    "end": 427.978,
+    "score": 0.956
+  },
+  {
+    "word": "who",
+    "start": 428.018,
+    "end": 428.158,
+    "score": 0.556
+  },
+  {
+    "word": "died",
+    "start": 428.198,
+    "end": 428.478,
+    "score": 0.75
+  },
+  {
+    "word": "for",
+    "start": 428.518,
+    "end": 428.679,
+    "score": 0.895
+  },
+  {
+    "word": "us",
+    "start": 428.779,
+    "end": 428.859,
+    "score": 0.748
+  },
+  {
+    "word": "is",
+    "start": 429.139,
+    "end": 429.219,
+    "score": 0.678
+  },
+  {
+    "word": "the",
+    "start": 429.259,
+    "end": 429.359,
+    "score": 0.837
+  },
+  {
+    "word": "one",
+    "start": 429.48,
+    "end": 429.58,
+    "score": 0.667
+  },
+  {
+    "word": "who",
+    "start": 429.62,
+    "end": 429.76,
+    "score": 0.607
+  },
+  {
+    "word": "lives",
+    "start": 429.82,
+    "end": 430.12,
+    "score": 0.82
+  },
+  {
+    "word": "in",
+    "start": 430.2,
+    "end": 430.281,
+    "score": 0.834
+  },
+  {
+    "word": "us.",
+    "start": 430.381,
+    "end": 430.461,
+    "score": 0.999
+  }
+]

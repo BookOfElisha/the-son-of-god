@@ -606,11 +606,18 @@
     "continue": {
       "audio": "15_Continue_the_Journey.mp3",
       "timings_file": "15_Continue_the_Journey.json",
-      "sentence_count": 4,
+      "sentence_count": 11,
       "sentences": [
         "This booklet, The Son of God: An Introduction to Spiritual Genetics, is drawn from Chapter 1 of the larger work The Foundation of Spiritual Genetics.",
         "If these pages have stirred something in you, continue the journey at bookofelisha.org.",
         "Discover:",
+        "AI Ministry Steward—Ask Anything, Anytime",
+        "A bespoke, Book-of-Elisha-trained AI that answers your questions on doctrine, Greek and Hebrew nuances, and practical discipleship—perfect for solo study or guiding a group.",
+        "Full-Series Early Access—Read Ahead",
+        "Chat with the AI to explore the entire three-book framework before the next volume's release.",
+        "Preview advanced chapters, cross-references, and word studies before they appear in print.",
+        "Live, Multilingual Fellowship—Gather & Grow",
+        "Join Elisha’s weekly sessions (with real-time translation) or drop into 24/7 AI-led Bible study rooms where language barriers vanish, and believers connect instantly.",
         "Visit bookofelisha.org to access the complete revelation now."
       ]
     }

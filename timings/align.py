@@ -1,20 +1,19 @@
 #!/usr/bin/env python3
 """
-align.py — Per-sentence audiobook timings using WhisperX.
+align.py — Generate per-sentence timings JSON files for the Son of God audiobook.
 
-v3 strategy: instead of one greedy pass, we do constrained search.
-For each sentence, we find its anchor (the audio-word index where it begins)
-inside a window biased toward the proportional position the sentence "should"
-start at, then advance through the sentence's words with a small per-step lookahead.
-This prevents the cursor from running away to the end of the audio when a few
-sentences are missed in a row.
+Uses WhisperX to get word-level timestamps, then walks the words in order,
+matching them against the canonical sentence list in `sentences.json`.
+Emits `book/timings/<audio_basename>.json` for each audio track.
 
 Usage (run from repo root):
 
     pip install whisperx
-    python book/timings/align.py
-    python book/timings/align.py section-1
-    python book/timings/align.py --device cpu
+    python book/timings/align.py                # process all sections
+    python book/timings/align.py section-1      # process just one section
+    python book/timings/align.py --device cpu   # force CPU (default: cuda if available)
+
+Requires: ffmpeg on PATH; ~3GB RAM (CPU) or a CUDA GPU for the large model.
 """
 
 from __future__ import annotations
@@ -24,110 +23,22 @@ import re
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent  # repo root
 TIMINGS_DIR = ROOT / "book" / "timings"
 AUDIO_DIR = ROOT / "book" / "audio"
 SENTENCES_JSON = TIMINGS_DIR / "sentences.json"
 
 
 def normalize(s: str) -> str:
+    """Lowercase, strip punctuation, collapse whitespace — for matching."""
     s = s.lower()
-    s = re.sub(r"[^a-z0-9'\s]", " ", s)
+    s = re.sub(r"[^\w\s']", " ", s)  # keep apostrophes inside contractions
     s = re.sub(r"\s+", " ", s).strip()
     return s
 
 
 def words_of(text: str) -> list[str]:
     return [w for w in normalize(text).split(" ") if w]
-
-
-def fuzzy_eq(a: str, b: str) -> bool:
-    if not a or not b:
-        return False
-    if a == b:
-        return True
-    if len(a) >= 4 and len(b) >= 4:
-        if a.startswith(b) or b.startswith(a):
-            return True
-    if abs(len(a) - len(b)) <= 1 and (len(a) >= 4 or len(b) >= 4):
-        if len(a) == len(b):
-            diffs = sum(1 for x, y in zip(a, b) if x != y)
-            if diffs <= 1:
-                return True
-        else:
-            longer, shorter = (a, b) if len(a) > len(b) else (b, a)
-            for i in range(len(longer)):
-                if longer[:i] + longer[i+1:] == shorter:
-                    return True
-    return False
-
-
-def score_anchor(words: list[dict], idx: int, target: list[str], lookahead: int = 6) -> int:
-    """Score how well words[idx:idx+lookahead] match target[:lookahead].
-    Returns count of matched words."""
-    score = 0
-    n = min(lookahead, len(target), len(words) - idx)
-    for k in range(n):
-        if fuzzy_eq(normalize(words[idx + k]["word"]), target[k]):
-            score += 1
-    return score
-
-
-def find_anchor(words: list[dict], target: list[str], cursor: int,
-                expected_idx: int, search_radius: int) -> int:
-    """Find the best audio-word index to anchor `target` at.
-
-    Searches a window around expected_idx (the proportional position),
-    starting no earlier than `cursor`. Picks the index with the highest
-    score on target[:6]. Falls back to expected_idx if nothing scores.
-    """
-    if not target:
-        return cursor
-    lo = max(cursor, expected_idx - search_radius)
-    hi = min(len(words), expected_idx + search_radius)
-    if lo >= hi:
-        return min(cursor, len(words) - 1)
-
-    best_idx = -1
-    best_score = 0
-    # Require at least 2 of the first 6 target words to match — that's
-    # strong enough to anchor in a transcript with substitutions.
-    for i in range(lo, hi):
-        score = score_anchor(words, i, target, lookahead=6)
-        if score > best_score:
-            best_score = score
-            best_idx = i
-            if score >= 5:  # near-perfect match, stop early
-                break
-
-    if best_score >= 2:
-        return best_idx
-    # Weak/no match — return proportional position as best guess.
-    return min(max(cursor, expected_idx), len(words) - 1)
-
-
-def walk_sentence(words: list[dict], target: list[str], anchor: int,
-                  per_word_lookahead: int = 12) -> tuple[float, float, int]:
-    """Walk through target words starting at anchor. Returns (start_t, end_t, last_audio_idx)."""
-    start_t = float(words[anchor]["start"])
-    end_t = start_t
-    cursor = anchor
-    last_matched = anchor
-    for ti in range(len(target)):
-        # Find this target word within a small window from cursor.
-        best_idx = -1
-        end = min(len(words), cursor + per_word_lookahead)
-        for i in range(cursor, end):
-            if fuzzy_eq(normalize(words[i]["word"]), target[ti]):
-                best_idx = i
-                break
-        if best_idx >= 0:
-            last_matched = best_idx
-            end_t = float(words[best_idx]["end"])
-            cursor = best_idx + 1
-        else:
-            cursor = min(cursor + 1, len(words))
-    return start_t, max(end_t, start_t + 0.1), last_matched
 
 
 def align_section(section_id: str, section_data: dict, model, align_model, align_meta, device: str) -> dict | None:
@@ -139,6 +50,7 @@ def align_section(section_id: str, section_data: dict, model, align_model, align
 
     sentences = section_data["sentences"]
     if not sentences:
+        print(f"  [skip] {section_id}: no sentences")
         return None
 
     import whisperx
@@ -151,6 +63,7 @@ def align_section(section_id: str, section_data: dict, model, align_model, align
         return_char_alignments=False,
     )
 
+    # Flatten word list across segments
     words = []
     for seg in result["segments"]:
         for w in seg.get("words", []):
@@ -158,45 +71,81 @@ def align_section(section_id: str, section_data: dict, model, align_model, align
                 continue
             words.append({"word": w["word"], "start": float(w["start"]), "end": float(w["end"])})
     if not words:
+        print(f"  [warn] no word-level timings produced for {section_id}")
         return None
 
-    audio_dur = float(words[-1]["end"])
-    total_audio_words = len(words)
-    total_target_words = sum(len(words_of(s)) for s in sentences if s)
-
-    print(f"  audio words: {total_audio_words}  target words: {total_target_words}  dur: {audio_dur:.1f}s")
-
+    # Precompute normalized audio words
+    audio_words = [normalize(w["word"]) for w in words]
+    
     out = []
-    cursor = 0           # earliest word index we'll search from
-    target_word_offset = 0
-
+    wi = 0
+    audio_dur = float(words[-1].get("end", 0.0)) if words else 0.0
+    
+    import difflib
+    
     for s_idx, sent in enumerate(sentences):
         target = words_of(sent)
         if not target:
             continue
-
-        # Where SHOULD this sentence start in the audio, proportionally?
-        if total_target_words > 0:
-            expected_idx = int(total_audio_words * (target_word_offset / total_target_words))
+            
+        # Search for this sentence in the next 1000 words of the audio using a sliding window
+        best_ratio = 0
+        best_start = 0
+        best_end = 0
+        
+        window_size = len(target) + 15
+        step = max(2, len(target) // 2)
+        
+        for offset in range(0, min(150, len(audio_words) - wi), step):
+            window = audio_words[wi + offset : wi + offset + window_size]
+            if not window:
+                break
+                
+            sm = difflib.SequenceMatcher(None, target, window)
+            r = sm.ratio()
+            
+            if r > best_ratio:
+                best_ratio = r
+                blocks = [b for b in sm.get_matching_blocks() if b.size >= 2]
+                if not blocks and len(target) < 4:
+                    blocks = [b for b in sm.get_matching_blocks() if b.size >= 1]
+                    
+                if blocks:
+                    first = blocks[0]
+                    last = blocks[-1]
+                    s_off = max(0, first.b - first.a)
+                    e_off = min(len(window) - 1, last.b + last.size - 1 + (len(target) - (last.a + last.size)))
+                    best_start = offset + s_off
+                    best_end = offset + e_off
+                    
+        if best_ratio > 0.4 and best_start <= best_end:
+            start_wi = wi + best_start
+            end_wi = wi + best_end
+            
+            # Find closest valid timestamps
+            start_t = None
+            for i in range(start_wi, min(len(words), start_wi + 5)):
+                if "start" in words[i]:
+                    start_t = float(words[i]["start"])
+                    break
+            
+            end_t = None
+            for i in range(end_wi, max(-1, end_wi - 5), -1):
+                if "end" in words[i]:
+                    end_t = float(words[i]["end"])
+                    break
+                    
+            if start_t is None: start_t = float(words[wi].get("start", 0.0)) if wi < len(words) else 0.0
+            if end_t is None: end_t = start_t
+            if end_t < start_t: end_t = start_t
+            
+            wi = end_wi + 1
         else:
-            expected_idx = cursor
-
-        # Search radius: ±15% of total audio length, but at least 80 words.
-        search_radius = max(80, int(total_audio_words * 0.15))
-
-        anchor = find_anchor(words, target, cursor, expected_idx, search_radius)
-        start_t, end_t, last_matched = walk_sentence(words, target, anchor)
-
-        out.append({
-            "start": round(start_t, 3),
-            "end": round(end_t, 3),
-            "text": sent,
-        })
-
-        # Advance cursor — but only modestly, so the next sentence can search backward
-        # too if needed. Move cursor to roughly halfway between last_matched and end of target.
-        cursor = min(last_matched + 1, len(words))
-        target_word_offset += len(target)
+            # Sentence completely missing. Do not advance wi.
+            start_t = float(words[wi].get("start", 0.0)) if wi < len(words) else 0.0
+            end_t = start_t
+            
+        out.append({"start": round(start_t, 3), "end": round(end_t, 3), "text": sent})
 
     return {
         "version": 1,
@@ -216,7 +165,7 @@ def main():
     args = ap.parse_args()
 
     if not SENTENCES_JSON.exists():
-        print(f"Missing {SENTENCES_JSON}.", file=sys.stderr)
+        print(f"Missing {SENTENCES_JSON}. Open the page once to regenerate, or rebuild it.", file=sys.stderr)
         sys.exit(1)
 
     data = json.loads(SENTENCES_JSON.read_text())
@@ -247,7 +196,6 @@ def main():
         print(f"  wrote {out_path.relative_to(ROOT)} ({result['sentence_count']} sentences)")
 
     print("\nDone.")
-
 
 if __name__ == "__main__":
     main()

@@ -2,7 +2,7 @@
   "version": 1,
   "audio": "15_Continue_the_Journey.mp3",
   "section_id": "continue",
-  "sentence_count": 4,
+  "sentence_count": 11,
   "duration": 108.382,
   "sentences": [
     {
@@ -12,16 +12,51 @@
     },
     {
       "start": 32.784,
-      "end": 39.129,
+      "end": 39.749,
       "text": "If these pages have stirred something in you, continue the journey at bookofelisha.org."
     },
     {
-      "start": 82.329,
-      "end": 82.429,
+      "start": 39.789,
+      "end": 39.789,
       "text": "Discover:"
     },
     {
-      "start": 101.959,
+      "start": 41.391,
+      "end": 45.534,
+      "text": "AI Ministry Steward\u2014Ask Anything, Anytime"
+    },
+    {
+      "start": 46.895,
+      "end": 59.784,
+      "text": "A bespoke, Book-of-Elisha-trained AI that answers your questions on doctrine, Greek and Hebrew nuances, and practical discipleship\u2014perfect for solo study or guiding a group."
+    },
+    {
+      "start": 61.586,
+      "end": 64.029,
+      "text": "Full-Series Early Access\u2014Read Ahead"
+    },
+    {
+      "start": 65.09,
+      "end": 71.057,
+      "text": "Chat with the AI to explore the entire three-book framework before the next volume's release."
+    },
+    {
+      "start": 72.299,
+      "end": 79.367,
+      "text": "Preview advanced chapters, cross-references, and word studies before they appear in print."
+    },
+    {
+      "start": 80.428,
+      "end": 80.428,
+      "text": "Live, Multilingual Fellowship\u2014Gather & Grow"
+    },
+    {
+      "start": 86.551,
+      "end": 100.318,
+      "text": "Join Elisha\u2019s weekly sessions (with real-time translation) or drop into 24/7 AI-led Bible study rooms where language barriers vanish, and believers connect instantly."
+    },
+    {
+      "start": 106.021,
       "end": 108.382,
       "text": "Visit bookofelisha.org to access the complete revelation now."
     }
