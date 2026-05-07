@@ -1,0 +1,1343 @@
+/* The Son of God — long-form reading stylesheet */
+/* Brand: Book of Elisha. Bone-white background, brand red as accent only. */
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Aboreto&family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&family=Sorts+Mill+Goudy:ital@0;1&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap");
+
+:root {
+  --bg: #FAF7EE;
+  --bg-deep: #F2EBD7;
+  /* Brand-system text colors: nothing lighter than #54595F. */
+  --ink: #000000;        /* headings & titles -> --fg-strong */
+  --ink-soft: #54595F;   /* body text       -> --fg */
+  --ink-faint: #54595F;  /* eyebrows/captions also held at body gray */
+  --hairline: rgba(0,0,0,0.18);
+  --hairline-soft: rgba(0,0,0,0.10);
+  --red: #930D0D;
+  --red-deep: #6E0808;
+  --gold: #B89048;
+  --paper-shadow: 0 1px 0 rgba(0,0,0,0.04);
+
+  /* Brand kit alignment:
+     H1 / cover / section titles  -> Cinzel  (--font-h1)
+     H2 chapter titles            -> Aboreto (--font-h2)
+     Series banner "The Holy Spirit is the Son of God" -> Bebas Neue (--font-h2-alt)
+     Body                         -> Sorts Mill Goudy (long-form reading serif) */
+  --serif-display: "Cinzel", "EB Garamond", "Times New Roman", serif;
+  --serif-h2:      "Aboreto", "Cinzel", serif;
+  --serif-body: "Sorts Mill Goudy", "EB Garamond", Georgia, serif;
+  --serif-italic: "Cormorant Garamond", "Sorts Mill Goudy", Georgia, serif;
+  --sans-eyebrow: "Montserrat", Helvetica, sans-serif;
+  --series-banner: "Bebas Neue", "Montserrat", Helvetica, sans-serif;
+  /* Brand wordmark "Book of Elisha" */
+  --brand-mark:    "Cinzel", "EB Garamond", serif;
+  /* Gotham (print subtitle face) — Montserrat is the licensed-web stand-in */
+  --gotham:        "Montserrat", "Helvetica Neue", Arial, sans-serif;
+
+  --measure: 38rem;          /* ~640px reading column */
+  --measure-wide: 48rem;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--serif-body);
+  font-size: 19px;
+  line-height: 1.72;
+  font-feature-settings: "liga", "kern", "onum";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  /* faint paper texture via layered radial gradients */
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(184,144,72,0.05), transparent 60%),
+    radial-gradient(circle at 88% 82%, rgba(147,13,13,0.035), transparent 60%);
+  padding-bottom: 220px; /* room for audio dock + action bar */
+}
+
+::selection { background: rgba(147,13,13,0.18); color: var(--ink); }
+
+a { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(147,13,13,0.3); transition: color .2s, border-color .2s; }
+a:hover { color: var(--red-deep); border-bottom-color: var(--red-deep); }
+
+/* ---------------- Layout shells ---------------- */
+
+.book {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+.book--wide {
+  max-width: var(--measure-wide);
+}
+
+/* ---------------- Title page ---------------- */
+
+.cover {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 28px 120px;
+  position: relative;
+}
+
+.cover__publisher {
+  /* "Book of Elisha" brand wordmark — always Cinzel */
+  font-family: var(--brand-mark);
+  letter-spacing: 0.22em;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin-bottom: 32px;
+  text-transform: uppercase;
+}
+
+.cover__seal {
+  width: 88px;
+  height: 88px;
+  margin-bottom: 40px;
+  opacity: 0.96;
+  filter: drop-shadow(0 8px 16px rgba(147,13,13,0.18));
+}
+
+.cover__title {
+  font-family: var(--serif-display); /* Cinzel */
+  font-size: clamp(3.2rem, 8vw, 5.6rem);
+  line-height: 0.96;
+  letter-spacing: 0.01em;
+  margin: 0 0 28px;
+  color: var(--ink);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.cover__title em {
+  /* Print subtitle treatment — Gotham (Montserrat web stand-in) */
+  font-family: var(--gotham);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  display: block;
+  font-size: 0.34em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-top: 0.55em;
+}
+
+.cover__rule {
+  width: 64px;
+  height: 1px;
+  background: var(--red);
+  margin: 32px 0;
+}
+
+.cover__subtitle {
+  font-family: var(--serif-italic);
+  font-style: italic;
+  font-size: 1.5rem;
+  color: var(--ink-soft);
+  margin: 0 0 56px;
+  max-width: 28rem;
+  line-height: 1.4;
+}
+
+.cover__series {
+  /* "The Holy Spirit is the Son of God Series" — always Bebas Neue */
+  font-family: var(--series-banner);
+  letter-spacing: 0.22em;
+  font-size: 1.1rem;
+  color: var(--red);
+  margin-bottom: 48px;
+  text-transform: uppercase;
+}
+
+.cover__author {
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.32em;
+  font-size: 1rem;
+  color: var(--red);
+  text-transform: uppercase;
+}
+
+.cover__scroll-hint {
+  position: absolute;
+  bottom: 40px;
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.3em;
+  font-size: 0.7rem;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  animation: fadepulse 3s ease-in-out infinite;
+}
+.cover__scroll-hint::after {
+  content: "";
+  width: 1px;
+  height: 32px;
+  background: var(--ink-faint);
+}
+@keyframes fadepulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+/* ---------------- Section frontispiece ---------------- */
+
+.frontispiece {
+  text-align: center;
+  padding: 120px 28px 80px;
+  max-width: 36rem;
+  margin: 0 auto;
+}
+
+.frontispiece__eyebrow {
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.32em;
+  font-size: 0.72rem;
+  color: var(--red);
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.frontispiece__quote {
+  font-family: var(--serif-italic);
+  font-style: italic;
+  font-size: 1.7rem;
+  line-height: 1.45;
+  color: var(--ink);
+  margin: 0 0 24px;
+}
+
+.frontispiece__cite {
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.24em;
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+}
+
+/* ---------------- Section header ---------------- */
+
+.section {
+  scroll-margin-top: 24px;
+  padding-top: 96px;
+  position: relative;
+}
+
+.section + .section {
+  border-top: 1px solid var(--hairline-soft);
+  margin-top: 64px;
+}
+
+.section__num {
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.36em;
+  font-size: 0.74rem;
+  color: var(--red);
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.section__title {
+  /* H2 chapter titles use Aboreto by design-system rule */
+  font-family: var(--serif-h2);
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  line-height: 1.1;
+  letter-spacing: 0.005em;
+  text-align: center;
+  margin: 0 auto 40px;
+  max-width: 24ch;
+  font-weight: 400;
+  color: var(--ink);
+}
+
+.section__title em {
+  font-family: var(--serif-italic);
+  font-style: italic;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: var(--red);
+}
+
+.section__epigraph {
+  text-align: center;
+  margin: 0 auto 56px;
+  max-width: 32rem;
+  font-family: var(--serif-italic);
+  font-style: italic;
+  font-size: 1.45rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+
+.section__epigraph cite {
+  display: block;
+  margin-top: 14px;
+  font-family: var(--sans-eyebrow);
+  font-style: normal;
+  letter-spacing: 0.22em;
+  font-size: 0.74rem;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+}
+
+.section__rule {
+  display: block;
+  width: 48px;
+  height: 1px;
+  background: var(--red);
+  margin: 0 auto 48px;
+  border: 0;
+}
+
+/* ---------------- Body prose ---------------- */
+
+.prose p {
+  margin: 0 0 1.4em;
+  text-wrap: pretty;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+.prose p:first-of-type::first-letter {
+  font-family: var(--serif-display);
+  font-size: 4.4em;
+  float: left;
+  line-height: 0.85;
+  padding: 0.06em 0.12em 0 0;
+  color: var(--red);
+}
+
+.prose em {
+  font-family: var(--serif-italic);
+  font-style: italic;
+}
+
+/* ---------------- Genetic Key callout ---------------- */
+
+.key {
+  margin: 64px auto 0;
+  padding: 40px 36px 36px;
+  background: var(--bg-deep);
+  border-top: 1px solid var(--red);
+  border-bottom: 1px solid var(--red);
+  position: relative;
+}
+
+.key__label {
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.32em;
+  font-size: 0.72rem;
+  color: var(--red);
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.key h3 {
+  font-family: var(--serif-h2); /* Aboreto */
+  font-size: 1.05rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 28px 0 12px;
+  font-weight: 400;
+}
+
+.key h3:first-of-type { margin-top: 0; }
+
+.key p {
+  margin: 0 0 0.8em;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+
+.key p:last-child { margin-bottom: 0; }
+
+/* ---------------- Table of contents ---------------- */
+
+.toc {
+  padding: 96px 28px 80px;
+  max-width: var(--measure);
+  margin: 0 auto;
+}
+
+.toc__heading {
+  font-family: var(--serif-display); /* Cinzel */
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: 600;
+  margin: 0 0 8px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.toc__sub {
+  text-align: center;
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.28em;
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  margin-bottom: 56px;
+}
+
+.toc__group + .toc__group { margin-top: 48px; }
+
+.toc__group-label {
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.32em;
+  font-size: 0.72rem;
+  color: var(--red);
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.toc ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.toc__item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 16px;
+  align-items: baseline;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--hairline-soft);
+}
+
+.toc__item:last-child { border-bottom: 0; }
+
+.toc__num {
+  font-family: var(--sans-eyebrow);
+  font-size: 0.78rem;
+  color: var(--red);
+  letter-spacing: 0.2em;
+  min-width: 2.5em;
+}
+
+.toc__link {
+  font-family: var(--serif-body);
+  font-size: 1.1rem;
+  color: var(--ink);
+  border: 0;
+  display: block;
+}
+.toc__link:hover { color: var(--red); }
+
+.toc__link em {
+  font-family: var(--serif-italic);
+  font-style: italic;
+  color: var(--ink-soft);
+  display: block;
+  font-size: 0.92rem;
+  margin-top: 2px;
+}
+
+.toc__time {
+  font-family: var(--sans-eyebrow);
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.toc__time::before {
+  content: "";
+  display: inline-block;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  border: 1px solid var(--red);
+}
+
+/* ---------------- Glossary ---------------- */
+
+.glossary {
+  padding-top: 96px;
+}
+
+.glossary h2 {
+  font-family: var(--serif-h2); /* Aboreto */
+  font-size: 1.6rem;
+  letter-spacing: 0.04em;
+  text-align: center;
+  font-weight: 400;
+  margin: 72px 0 8px;
+  color: var(--ink);
+}
+
+.glossary h2:first-of-type { margin-top: 0; }
+
+.glossary h2 + p {
+  text-align: center;
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.28em;
+  font-size: 0.72rem;
+  color: var(--red);
+  text-transform: uppercase;
+  margin: 0 0 32px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.glossary dt {
+  font-family: var(--serif-h2); /* Aboreto */
+  font-size: 1.3rem;
+  margin: 32px 0 8px;
+  color: var(--ink);
+  letter-spacing: 0.01em;
+}
+
+.glossary dd {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+
+.glossary dd strong { color: var(--ink); font-weight: 600; }
+
+/* ---------------- Continue / colophon / copyright ---------------- */
+
+.continue {
+  padding: 120px 28px 64px;
+  text-align: center;
+  max-width: 36rem;
+  margin: 0 auto;
+}
+
+.continue h2 {
+  font-family: var(--serif-display); /* Cinzel */
+  font-size: 2.6rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 0 0 32px;
+}
+
+.continue p {
+  font-size: 1.1rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+
+.continue ul {
+  list-style: none;
+  padding: 0;
+  margin: 40px 0;
+  text-align: left;
+}
+
+.continue li {
+  padding: 20px 0;
+  border-top: 1px solid var(--hairline-soft);
+}
+.continue li:last-child { border-bottom: 1px solid var(--hairline-soft); }
+
+.continue li strong {
+  display: block;
+  font-family: var(--serif-h2); /* Aboreto */
+  font-size: 1.15rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 6px;
+  color: var(--ink);
+  font-weight: 400;
+}
+
+.cta-link {
+  display: inline-block;
+  margin-top: 32px;
+  padding: 16px 28px;
+  background: var(--red);
+  color: #fff;
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.24em;
+  font-size: 0.84rem;
+  text-transform: uppercase;
+  border: 0;
+  transition: background .2s;
+}
+.cta-link:hover { background: var(--red-deep); color: #fff; }
+
+.colophon {
+  text-align: center;
+  padding: 64px 28px;
+  /* "Book of Elisha" wordmark sits here — Cinzel */
+  font-family: var(--brand-mark);
+  letter-spacing: 0.2em;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+}
+
+.colophon img {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+details.copyright {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 24px 28px 80px;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+details.copyright summary {
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.24em;
+  font-size: 0.74rem;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 16px 0;
+  border-top: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+  list-style: none;
+  text-align: center;
+}
+details.copyright summary::-webkit-details-marker { display: none; }
+details.copyright summary::after {
+  content: "  +";
+  font-size: 0.9rem;
+  color: var(--red);
+}
+details.copyright[open] summary::after { content: "  –"; }
+
+details.copyright .copy-body { padding: 32px 0 0; }
+details.copyright p { margin: 0 0 1em; }
+details.copyright strong { color: var(--ink); }
+
+/* ---------------- Audio dock ---------------- */
+
+.dock {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  background: rgba(250,247,238,0.96);
+  backdrop-filter: saturate(140%) blur(18px);
+  -webkit-backdrop-filter: saturate(140%) blur(18px);
+  border-top: 1px solid var(--hairline);
+  z-index: 80;
+  transform: translateY(0);
+  transition: transform .35s ease;
+}
+
+.dock--hidden { transform: translateY(110%); }
+
+.dock__inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 14px 28px 16px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 24px;
+  align-items: center;
+}
+
+.dock__label {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  max-width: 280px;
+}
+
+.dock__eyebrow {
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.28em;
+  font-size: 0.62rem;
+  color: var(--red);
+  text-transform: uppercase;
+}
+
+.dock__title {
+  font-family: var(--serif-h2); /* Aboreto */
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  margin-top: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dock__center {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dock__transport {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.dock__btn {
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--ink);
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s;
+  padding: 0;
+  font-family: var(--sans-eyebrow);
+}
+.dock__btn:hover { background: rgba(147,13,13,0.08); color: var(--red); }
+.dock__btn--play {
+  width: 48px; height: 48px;
+  background: var(--red); color: #fff;
+  border-color: var(--red);
+}
+.dock__btn--play:hover { background: var(--red-deep); color: #fff; border-color: var(--red-deep); }
+
+.dock__btn svg { width: 18px; height: 18px; }
+.dock__btn--play svg { width: 16px; height: 16px; }
+
+.dock__skip {
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+
+.dock__progress-row {
+  display: grid;
+  grid-template-columns: 48px 1fr 48px;
+  gap: 12px;
+  align-items: center;
+  font-family: var(--sans-eyebrow);
+  font-size: 0.66rem;
+  color: var(--ink-faint);
+  letter-spacing: 0.06em;
+}
+
+.dock__progress {
+  position: relative;
+  height: 4px;
+  background: var(--hairline);
+  border-radius: 2px;
+  cursor: pointer;
+  overflow: visible;
+}
+
+.dock__progress-fill {
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  background: var(--red);
+  border-radius: 2px;
+  width: 0%;
+  pointer-events: none;
+}
+
+.dock__progress-buffer {
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  background: rgba(147,13,13,0.18);
+  border-radius: 2px;
+  width: 0%;
+  pointer-events: none;
+}
+
+.dock__right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dock__chip {
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.18em;
+  font-size: 0.68rem;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid var(--hairline);
+  padding: 7px 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 999px;
+  transition: all .15s;
+  white-space: nowrap;
+  flex: 0 0 auto;
+}
+.dock__chip:hover { border-color: var(--red); color: var(--red); }
+.dock__chip--active { background: var(--red); color: #fff; border-color: var(--red); }
+.dock__chip--active:hover { background: var(--red-deep); color: #fff; border-color: var(--red-deep); }
+
+.dock__sections {
+  position: relative;
+}
+
+.dock__sections-menu {
+  position: absolute;
+  bottom: calc(100% + 12px);
+  right: 0;
+  width: 380px;
+  max-height: 60vh;
+  overflow-y: auto;
+  background: var(--bg);
+  border: 1px solid var(--hairline);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.18);
+  padding: 8px 0;
+  display: none;
+}
+.dock__sections-menu--open { display: block; }
+
+.dock__sections-item {
+  display: grid;
+  grid-template-columns: 32px 1fr auto;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 12px 18px;
+  font-family: var(--serif-body);
+  font-size: 0.95rem;
+  color: var(--ink);
+  border-bottom: 1px solid var(--hairline-soft);
+}
+.dock__sections-item:last-child { border-bottom: 0; }
+.dock__sections-item:hover { background: var(--bg-deep); }
+.dock__sections-item--active { background: var(--bg-deep); color: var(--red); }
+.dock__sections-item__num {
+  font-family: var(--sans-eyebrow);
+  font-size: 0.7rem;
+  color: var(--red);
+  letter-spacing: 0.18em;
+}
+.dock__sections-item__time {
+  font-family: var(--sans-eyebrow);
+  font-size: 0.66rem;
+  color: var(--ink-faint);
+  letter-spacing: 0.1em;
+}
+
+/* ---------------- Listen-along section highlighting ---------------- */
+
+.section--playing > .section__num,
+.section--playing > .section__title {
+  color: var(--red);
+}
+
+.section--playing > .section__rule {
+  background: var(--red);
+  width: 96px;
+  transition: width .6s ease;
+}
+
+.now-playing-bead {
+  position: fixed;
+  left: 18px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--red);
+  box-shadow: 0 0 0 4px rgba(147,13,13,0.18);
+  pointer-events: none;
+  z-index: 70;
+  opacity: 0;
+  transition: opacity .3s, top .6s cubic-bezier(.2,.7,.2,1);
+}
+.now-playing-bead--visible { opacity: 1; }
+
+/* ---------------- Listen button inline in TOC ---------------- */
+
+.toc__listen-btn {
+  background: transparent;
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.16em;
+  font-size: 0.66rem;
+  color: var(--ink-soft);
+  cursor: pointer;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all .15s;
+}
+.toc__listen-btn:hover { border-color: var(--red); color: var(--red); }
+.toc__listen-btn::before {
+  content: "";
+  display: inline-block;
+  width: 0; height: 0;
+  border-left: 6px solid currentColor;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+.toc__listen-btn--playing::before {
+  border-left: 0;
+  width: 6px; height: 8px;
+  background: linear-gradient(to right, currentColor 0 2px, transparent 2px 4px, currentColor 4px 6px);
+}
+
+/* ---------------- Sentence-level highlighting (listen-along) ---------------- */
+
+.prose [data-sent] {
+  transition: background-color .2s ease, color .2s ease;
+  border-radius: 2px;
+  padding: 0 1px;
+  margin: 0 -1px;
+}
+
+.prose [data-sent].sent--active {
+  background: rgba(147, 13, 13, 0.10);
+  color: var(--ink);
+  box-shadow: 0 0 0 2px rgba(147, 13, 13, 0.10);
+}
+
+.prose [data-sent].sent--past {
+  color: var(--ink-soft);
+}
+
+/* ---------------- Top navbar ---------------- */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 60;
+  background: rgba(250,247,238,0.92);
+  backdrop-filter: saturate(140%) blur(14px);
+  -webkit-backdrop-filter: saturate(140%) blur(14px);
+  border-bottom: 1px solid transparent;
+  transition: border-color .3s;
+}
+.navbar--scrolled { border-bottom-color: var(--hairline); }
+
+.navbar__inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 22px;
+  gap: 18px;
+}
+
+.navbar__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* "Book of Elisha" brand wordmark — always Cinzel */
+  font-family: var(--brand-mark);
+  letter-spacing: 0.18em;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ink);
+  text-transform: uppercase;
+  border: 0;
+  flex-shrink: 0;
+}
+.navbar__brand:hover { color: var(--red); }
+.navbar__brand img { width: 26px; height: 26px; }
+.navbar__brand-text { display: inline-block; }
+
+.navbar__nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex: 1;
+  justify-content: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.navbar__nav::-webkit-scrollbar { display: none; }
+
+.navbar__link {
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.16em;
+  font-size: 0.7rem;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 0;
+  padding: 8px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  transition: color .15s, background .15s;
+}
+.navbar__link:hover { color: var(--red); background: rgba(147,13,13,0.06); }
+.navbar__link--active { color: var(--red); }
+.navbar__link--active::after {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 1px;
+  background: var(--red);
+  margin: 4px auto 0;
+}
+
+.navbar__contents-btn {
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.18em;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  padding: 7px 14px;
+  color: var(--ink);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: all .15s;
+}
+.navbar__contents-btn:hover { border-color: var(--red); color: var(--red); }
+
+.navbar__menu-btn {
+  display: none;
+  background: transparent;
+  border: 0;
+  padding: 6px 8px;
+  cursor: pointer;
+  color: var(--ink);
+}
+.navbar__menu-btn svg { width: 22px; height: 22px; }
+
+@media (max-width: 880px) {
+  /* Keep the wordmark visible at tablet widths; just tighten it. */
+  .navbar__brand-text { font-size: 0.7rem; letter-spacing: 0.14em; }
+  .navbar__nav { gap: 0; }
+  .navbar__link { font-size: 0.66rem; padding: 7px 6px; letter-spacing: 0.1em; }
+}
+
+@media (max-width: 560px) {
+  /* Only on true phones do we drop the text and rely on the seal alone. */
+  .navbar__brand-text { display: none; }
+}
+
+@media (max-width: 640px) {
+  .navbar__nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--bg); border-bottom: 1px solid var(--hairline); flex-direction: column; align-items: stretch; padding: 8px 0; }
+  .navbar__nav--open { display: flex; }
+  .navbar__link { padding: 12px 22px; text-align: left; font-size: 0.74rem; letter-spacing: 0.18em; border-radius: 0; }
+  .navbar__link--active::after { display: none; }
+  .navbar__menu-btn { display: inline-flex; }
+  .navbar__contents-btn { display: none; }
+}
+
+/* ---------------- Sentence highlighting (listen-along) ---------------- */
+
+.section .prose [data-sent] {
+  transition: background-color .35s ease, color .35s ease;
+  border-radius: 2px;
+  padding: 0 1px;
+  margin: 0 -1px;
+}
+.section .prose .sent--active {
+  background: rgba(147,13,13,0.12);
+  color: var(--ink);
+  box-shadow: 0 0 0 2px rgba(147,13,13,0.12);
+}
+.section .prose .sent--past {
+  color: var(--ink-soft);
+}
+
+/* ---------------- Action bar (CTAs above dock) ---------------- */
+
+.action-bar {
+  position: fixed;
+  left: 50%;
+  bottom: var(--dock-height, 96px);
+  transform: translateX(-50%);
+  z-index: 55;
+  width: min(960px, calc(100vw - 32px));
+  background: var(--bg);
+  border: 1px solid var(--hairline);
+  border-radius: 14px 14px 0 0;
+  box-shadow: 0 12px 32px -16px rgba(26,23,20,0.28), 0 2px 6px rgba(26,23,20,0.06);
+  transition: transform .35s cubic-bezier(.2,.7,.2,1), opacity .25s, width .35s, border-color .2s;
+}
+
+.action-bar__inner {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 18px;
+  align-items: center;
+  padding: 14px 18px 14px 22px;
+  transition: opacity .2s;
+}
+
+.action-bar__copy { min-width: 0; }
+.action-bar__title {
+  font-family: var(--serif-h2); /* Aboreto */
+  letter-spacing: 0.06em;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+.action-bar__sub {
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.16em;
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-top: 3px;
+}
+
+.action-bar__buttons { display: flex; gap: 10px; }
+
+.action-bar__toggle {
+  background: transparent;
+  border: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: var(--ink-faint);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background .15s, color .15s;
+}
+.action-bar__chevron { width: 16px; height: 16px; }
+.action-bar__toggle:hover { background: rgba(26,23,20,0.06); color: var(--ink); }
+
+/* ---- Minimized pill (peeks above the dock when collapsed) ---- */
+.action-bar__pill {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(0);
+  display: none;
+  align-items: center;
+  gap: 8px;
+  background: var(--ink);
+  color: var(--bg);
+  border: 0;
+  border-radius: 999px 999px 0 0;
+  padding: 8px 18px 10px;
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.18em;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0 -4px 14px -4px rgba(26,23,20,0.25);
+  transition: background .15s, transform .2s, color .15s;
+}
+.action-bar__pill:hover { background: var(--red); }
+.action-bar__pill-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--red);
+  box-shadow: 0 0 0 0 rgba(147,13,13,0.55);
+  animation: action-bar-pulse 2.6s ease-in-out infinite;
+}
+.action-bar__pill:hover .action-bar__pill-dot { background: var(--bg); animation: none; }
+.action-bar__pill-chevron { width: 14px; height: 14px; opacity: 0.7; }
+
+@keyframes action-bar-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(147,13,13,0.55); }
+  50% { box-shadow: 0 0 0 6px rgba(147,13,13,0); }
+}
+
+/* ---- Minimized state ---- */
+.action-bar--minimized {
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  pointer-events: none;
+  width: auto;
+}
+.action-bar--minimized .action-bar__inner {
+  opacity: 0;
+  pointer-events: none;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.action-bar--minimized .action-bar__pill {
+  display: inline-flex;
+  pointer-events: auto;
+}
+
+/* ---------------- Action buttons (shared) ---------------- */
+
+.action-btn {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 9px 18px;
+  border-radius: 8px;
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.18em;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 0;
+  transition: transform .15s, box-shadow .15s, background .15s;
+  line-height: 1.2;
+  text-align: center;
+  white-space: nowrap;
+}
+.action-btn__sub {
+  font-family: var(--serif-italic);
+  font-style: italic;
+  font-size: 0.88rem;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  opacity: 0.9;
+  font-weight: 500;
+}
+.action-btn--primary {
+  background: var(--red);
+  color: var(--bg);
+  box-shadow: 0 4px 14px -4px rgba(147,13,13,0.5);
+}
+.action-btn--primary:hover { background: var(--red-deep); transform: translateY(-1px); box-shadow: 0 8px 22px -6px rgba(147,13,13,0.6); }
+.action-btn--secondary {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--hairline);
+}
+.action-btn--secondary:hover { border-color: var(--red); color: var(--red); transform: translateY(-1px); }
+
+/* ---------------- End-of-book CTA ---------------- */
+
+.endcta {
+  margin: 56px auto 0;
+  max-width: var(--measure-wide);
+  padding: 40px 32px 36px;
+  text-align: center;
+  border-top: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+  background:
+    radial-gradient(circle at 50% 0%, rgba(147,13,13,0.04), transparent 60%);
+}
+.endcta__eyebrow {
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.32em;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 8px;
+}
+.endcta__title {
+  font-family: var(--serif-display); /* Cinzel */
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  margin: 0 0 22px;
+  color: var(--ink);
+}
+.endcta__buttons {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.endcta .action-btn { padding: 14px 28px; font-size: 0.78rem; }
+
+@media (max-width: 720px) {
+  .action-bar { bottom: var(--dock-height, 220px); width: calc(100vw - 24px); }
+  .action-bar__inner { grid-template-columns: 1fr; gap: 12px; padding: 12px 14px; }
+  .action-bar__copy { padding-right: 28px; }
+  .action-bar__buttons { grid-column: 1 / -1; flex-direction: row; align-items: stretch; gap: 8px; }
+  .action-bar__toggle { position: absolute; top: 12px; right: 12px; }
+  .action-bar .action-btn { width: auto; flex: 1; padding: 10px 4px; font-size: 0.65rem; }
+  .action-bar .action-btn__sub { font-size: 0.75rem; margin-top: 2px; }
+
+  .endcta__buttons { flex-direction: column; gap: 10px; }
+  .endcta__buttons .action-btn { width: 100%; }
+}
+
+/* ---------------- Responsive ---------------- */
+
+@media (max-width: 720px) {
+  body { font-size: 18px; padding-bottom: 360px; }
+  .book { padding: 0 22px; }
+  .cover { padding: 60px 22px 100px; }
+  .section { padding-top: 64px; }
+  .key { padding: 32px 22px; margin-left: -22px; margin-right: -22px; }
+
+  .dock__inner { grid-template-columns: 1fr; gap: 12px; padding: 12px 18px 14px; }
+  .dock__label { min-width: 0; max-width: none; align-items: center; text-align: center; }
+  .dock__title { white-space: normal; }
+  .dock__right { justify-content: center; }
+  .dock__sections-menu { width: calc(100vw - 36px); right: -100px; }
+}
+
+/* ---------------- Print stylesheet (PDF export) ---------------- */
+
+@media print {
+  @page { size: 6in 9in; margin: 0.75in 0.7in; }
+
+  body {
+    background: #fff;
+    color: #111;
+    font-size: 11.5pt;
+    line-height: 1.55;
+    padding: 0;
+    background-image: none;
+  }
+
+  .utility-bar, .navbar, .dock, .action-bar, .now-playing-bead, .toc__listen-btn,
+  .cover__scroll-hint, .toc__time { display: none !important; }
+
+  a { color: #111 !important; border-bottom: 0 !important; }
+
+  .book, .toc, .frontispiece, .continue, .glossary, details.copyright {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cover { min-height: auto; padding: 1in 0; page-break-after: always; }
+  .cover__seal { width: 64px; height: 64px; }
+
+  .section { padding-top: 0; page-break-before: always; break-before: page; }
+  .section + .section { border-top: 0; margin-top: 0; }
+
+  .section__title, .toc__heading, .continue h2 { font-size: 22pt; }
+
+  .key { background: #fafafa; border-color: #930D0D; page-break-inside: avoid; }
+
+  .frontispiece { page-break-after: always; }
+  .toc { page-break-after: always; }
+
+  details.copyright[open] summary,
+  details.copyright .copy-body { display: block; }
+  details.copyright summary { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+
+  .prose p:first-of-type::first-letter {
+    color: #930D0D;
+    font-size: 3.4em;
+  }
+}
