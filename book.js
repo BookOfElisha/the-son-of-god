@@ -687,11 +687,11 @@
     
     navigator.mediaSession.metadata = new MediaMetadata({
       title: sec.label,
-      artist: 'Book of Elisha',
+      artist: 'The Son of God — Book of Elisha',
       album: 'The Son of God',
       artwork: [
-        { src: '../assets/imagery/book-cover.jpg', sizes: '512x512', type: 'image/jpeg' },
-        { src: '../assets/imagery/book-cover.jpg', sizes: '256x256', type: 'image/jpeg' }
+        { src: 'assets/imagery/book-cover.jpg', sizes: '512x512', type: 'image/jpeg' },
+        { src: 'assets/imagery/book-cover.jpg', sizes: '256x256', type: 'image/jpeg' }
       ]
     });
   }
