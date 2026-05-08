@@ -685,13 +685,15 @@
     // We use an absolute or relative path that points to the cover image.
     // Because the html is in 'book/', the image is at '../assets/imagery/book-cover.jpg'
     
+    const coverUrl = new URL('../assets/imagery/book-cover.jpg', window.location.href).href;
+    
     navigator.mediaSession.metadata = new MediaMetadata({
       title: sec.label,
       artist: 'The Son of God — Book of Elisha',
       album: 'The Son of God',
       artwork: [
-        { src: 'assets/imagery/book-cover.jpg', sizes: '512x512', type: 'image/jpeg' },
-        { src: 'assets/imagery/book-cover.jpg', sizes: '256x256', type: 'image/jpeg' }
+        { src: coverUrl, sizes: '512x512', type: 'image/jpeg' },
+        { src: coverUrl, sizes: '256x256', type: 'image/jpeg' }
       ]
     });
   }
