@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download the App · Book of Elisha</title>
+  <link rel="stylesheet" href="book.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Aboreto&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#930D0D">
+  <link rel="apple-touch-icon" href="assets/app-icon.png">
+  <style>
+    /* Premium App Download Hub Styles */
+    body {
+      background: var(--bg);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      overflow-x: hidden;
+    }
+
+    .hub-container {
+      max-width: 500px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--hairline-soft);
+      border-radius: 24px;
+      padding: 48px 32px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.04), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+      transform: translateY(20px);
+      opacity: 0;
+      animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    @keyframes fadeUp {
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .app-seal {
+      width: 96px;
+      height: 96px;
+      margin: 0 auto 24px;
+      display: block;
+      filter: drop-shadow(0 12px 24px rgba(147, 13, 13, 0.2));
+    }
+
+    h1 {
+      font-family: var(--serif-display);
+      font-size: 2.2rem;
+      color: var(--ink);
+      margin: 0 0 16px;
+      line-height: 1.1;
+    }
+
+    p.description {
+      font-family: var(--sans-eyebrow);
+      font-size: 0.95rem;
+      color: var(--ink-soft);
+      line-height: 1.6;
+      margin: 0 0 40px;
+    }
+
+    /* Dynamic Content Sections */
+    .dynamic-content {
+      display: none;
+      animation: fadeIn 0.5s ease forwards;
+    }
+
+    .dynamic-content.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.98); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    /* iOS Instructions */
+    .ios-instruction {
+      background: rgba(0,0,0,0.03);
+      border-radius: 16px;
+      padding: 24px;
+      position: relative;
+    }
+    .ios-instruction h3 {
+      font-family: var(--sans-eyebrow);
+      font-size: 0.9rem;
+      color: var(--ink);
+      margin: 0 0 16px;
+    }
+    .ios-steps {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      text-align: left;
+    }
+    .ios-step {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-family: var(--sans-eyebrow);
+      font-size: 0.85rem;
+      color: var(--ink-soft);
+    }
+    .ios-step-icon {
+      width: 40px;
+      height: 40px;
+      background: #fff;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      flex-shrink: 0;
+    }
+    .ios-step-icon svg { width: 20px; height: 20px; fill: var(--red); }
+    
+    .bouncing-arrow {
+      position: absolute;
+      bottom: -40px;
+      left: 50%;
+      transform: translateX(-50%);
+      animation: bounce 2s infinite;
+    }
+    .bouncing-arrow svg { width: 24px; height: 24px; fill: var(--red); }
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% { transform: translateY(0) translateX(-50%); }
+      40% { transform: translateY(10px) translateX(-50%); }
+      60% { transform: translateY(5px) translateX(-50%); }
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background: var(--red);
+      color: #fff;
+      font-family: var(--sans-eyebrow);
+      font-size: 0.9rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 18px 32px;
+      border-radius: 100px;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(147, 13, 13, 0.3);
+    }
+    .btn:hover {
+      background: var(--red-deep);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 16px rgba(147, 13, 13, 0.4);
+    }
+    .btn svg { width: 20px; height: 20px; fill: currentColor; }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--ink);
+      border: 1px solid var(--hairline);
+      box-shadow: none;
+      margin-top: 16px;
+    }
+    .btn-secondary:hover {
+      background: rgba(0,0,0,0.03);
+      color: var(--red);
+      border-color: var(--red);
+      transform: none;
+      box-shadow: none;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="hub-container">
+    <img src="assets/logos/wax-seal.png" alt="Book of Elisha Seal" class="app-seal" />
+    <h1>Book of Elisha</h1>
+    <p class="description">Immerse yourself in the complete <em>The Holy Spirit is the Son of God</em> series and beyond. Read, listen, and explore the teachings anywhere, anytime—completely free.</p>
+
+    <!-- DEFAULT / DESKTOP VIEW -->
+    <div id="view-desktop" class="dynamic-content">
+      <a href="The_Son_of_God_Standalone.html" class="btn">
+        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+        Open Web Player
+      </a>
+      <p style="margin-top:20px; font-size:0.8rem; color:var(--ink-soft); font-family:var(--sans-eyebrow);">Tip: You can also install this as an app directly from your browser's URL bar.</p>
+    </div>
+
+    <!-- IOS VIEW -->
+    <div id="view-ios" class="dynamic-content">
+      <div class="ios-instruction">
+        <h3>Install the iPhone App</h3>
+        <div class="ios-steps">
+          <div class="ios-step">
+            <div class="ios-step-icon">
+              <!-- Apple Share Icon -->
+              <svg viewBox="0 0 24 24"><path d="M16 5l-1.42 1.42-1.59-1.59V16h-2V4.83L9.41 6.41 8 5l4-4 4 4zm4 5v11c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V10c0-1.1.9-2 2-2h3v2H6v11h12V10h-3V8h3c1.1 0 2 .9 2 2z"/></svg>
+            </div>
+            <span>1. Tap the <strong>Share</strong> button at the bottom of Safari.</span>
+          </div>
+          <div class="ios-step">
+            <div class="ios-step-icon">
+              <!-- Add to Home Screen Icon -->
+              <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+            </div>
+            <span>2. Scroll down and tap <strong>Add to Home Screen</strong>.</span>
+          </div>
+        </div>
+        
+        <div class="bouncing-arrow">
+          <svg viewBox="0 0 24 24"><path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"/></svg>
+        </div>
+      </div>
+      <a href="The_Son_of_God_Standalone.html" class="btn btn-secondary">Or Open in Browser</a>
+    </div>
+
+    <!-- ANDROID VIEW -->
+    <div id="view-android" class="dynamic-content">
+      <a href="#" class="btn" onclick="alert('Android APK download will be linked here once GitHub Actions is configured.'); return false;">
+        <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"/></svg>
+        Download Android App
+      </a>
+      <a href="The_Son_of_God_Standalone.html" class="btn btn-secondary">Open Web Player</a>
+    </div>
+
+  </div>
+
+  <script>
+    // Smart Device Detection Logic
+    document.addEventListener("DOMContentLoaded", () => {
+      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+      
+      const isIOS = /iPad|iPhone|iPod/.test(userAgent) && !window.MSStream;
+      const isAndroid = /android/i.test(userAgent);
+      
+      // Hide all views first
+      document.querySelectorAll('.dynamic-content').forEach(el => el.classList.remove('active'));
+
+      if (isIOS) {
+        document.getElementById('view-ios').classList.add('active');
+      } else if (isAndroid) {
+        document.getElementById('view-android').classList.add('active');
+      } else {
+        document.getElementById('view-desktop').classList.add('active');
+      }
+    });
+  </script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').catch(err => console.error('SW Error:', err));
+      });
+    }
+  </script>
+</body>
+</html>

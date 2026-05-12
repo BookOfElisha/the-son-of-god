@@ -1,0 +1,17 @@
+{
+  "name": "Book of Elisha",
+  "short_name": "Elisha",
+  "description": "Immerse yourself in the complete The Holy Spirit is the Son of God series.",
+  "start_url": "./The_Son_of_God_Standalone.html",
+  "display": "standalone",
+  "background_color": "#FAF7EE",
+  "theme_color": "#930D0D",
+  "icons": [
+    {
+      "src": "./assets/app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
