@@ -7,6 +7,9 @@
   <meta name="description" content="The Son of God: An Introduction to Spiritual Genetics™. Read free online or listen along with the audiobook narrated by Elisha Jancik. Book of Elisha." />
   <meta name="author" content="Elisha Jancik" />
   <link rel="icon" type="image/png" href="assets/logos/wax-seal.png" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#930D0D" />
+  <link rel="apple-touch-icon" href="assets/app-icon.png" />
   <style>
 /* The Son of God — long-form reading stylesheet */
 /* Brand: Book of Elisha. Bone-white background, brand red as accent only. */
@@ -2661,5 +2664,12 @@ window.EMBEDDED_TIMINGS = {"epigraph": {"version": 1, "audio": "01_The_Epigraph.
 
 </script>
 
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js').catch(err => console.error('SW Error:', err));
+    });
+  }
+</script>
 </body>
 </html>
