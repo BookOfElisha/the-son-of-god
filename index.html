@@ -1356,6 +1356,80 @@ details.copyright strong { color: var(--ink); }
   }
 }
 
+/* ---------------- Smart App Banner ---------------- */
+
+.smart-banner {
+  background: var(--bg-deep);
+  border-bottom: 1px solid var(--hairline-soft);
+  padding: 12px 28px;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 90;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.smart-banner__content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  max-width: var(--measure);
+}
+
+.smart-banner__icon {
+  width: 32px;
+  height: 32px;
+}
+
+.smart-banner__text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.smart-banner__text strong {
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+  color: var(--ink);
+  text-transform: uppercase;
+}
+
+.smart-banner__text span {
+  font-family: var(--serif-body);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.smart-banner__btn {
+  background: var(--red);
+  color: #fff;
+  font-family: var(--sans-eyebrow);
+  letter-spacing: 0.1em;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border-radius: 99px;
+  text-decoration: none;
+  border: none;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.smart-banner__btn:hover {
+  background: var(--red-deep);
+  color: #fff;
+}
+
+/* Hide the banner when the PWA is installed and running as an app */
+@media all and (display-mode: standalone) {
+  .smart-banner {
+    display: none !important;
+  }
+}
+
 </style>
 </head>
 <body id="top">
