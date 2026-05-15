@@ -37,6 +37,9 @@ jobs:
           # Inject Background Audio functionality
           echo "document.addEventListener('DOMContentLoaded', () => { if (window.Capacitor && window.Capacitor.Plugins.BackgroundMode) { window.Capacitor.Plugins.BackgroundMode.enable(); } });" >> www/book.js
           
+          # Forcefully hide Smart Banner in the Native App
+          echo ".smart-banner { display: none !important; }" >> www/book.css
+          
           # Install Mobile App Software on the Server
           npm init -y
           npm install @capacitor/core@8.3.2 @capacitor/android@8.3.2 @capacitor/cli@8.3.2 @anuradev/capacitor-background-mode@7.2.1
