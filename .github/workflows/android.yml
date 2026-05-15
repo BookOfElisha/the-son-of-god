@@ -52,6 +52,12 @@ jobs:
           # Generate Android Project
           npx cap add android
           npx cap sync android
+          
+          # Generate Official App Icons
+          npm install @capacitor/assets@3.0.5
+          cp assets/logos/wax-seal.png assets/icon.png
+          cp assets/logos/wax-seal.png assets/splash.png
+          npx capacitor-assets generate --android
 
       - name: Build Android APK
         run: |
