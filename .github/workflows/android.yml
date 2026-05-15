@@ -37,8 +37,8 @@ jobs:
           # Inject Background Audio functionality
           echo "document.addEventListener('DOMContentLoaded', () => { if (window.Capacitor && window.Capacitor.Plugins.BackgroundMode) { window.Capacitor.Plugins.BackgroundMode.enable(); } });" >> www/book.js
           
-          # Forcefully hide Smart Banner in the Native App
-          echo ".smart-banner { display: none !important; }" >> www/book.css
+          # Forcefully hide Smart Banner in the Native App by injecting CSS into index.html
+          sed -i.bak 's/<\/head>/<style>.smart-banner { display: none !important; }<\/style><\/head>/g' www/index.html
           
           # Install Mobile App Software on the Server
           npm init -y
