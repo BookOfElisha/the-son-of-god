@@ -712,6 +712,12 @@
     setupMediaSession();
     restoreState();
     loadSection(currentIdx, false);
+
+    // Hide Smart Banner if running inside the Native App
+    if (window.Capacitor) {
+      const banner = document.querySelector('.smart-banner');
+      if (banner) banner.style.display = 'none';
+    }
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
